@@ -1,0 +1,41 @@
+[
+    {
+		"workplace": "Epam Systems",
+		"date": "April 2017 - Present",
+		"position": "Lecturer at Epam Resource Development Lab",
+		"description": "I work for Epam Resource Development Lab located in Kyiv Polytechnic Institute as a lecturer of a test automation course for a group of 25 people."
+	},
+	{
+		"workplace": "SmartImprove.me",
+		"date": "February 2017 - April 2017",
+		"position": "Lecturer & Mentor",
+		"description": "I worked at SmartImprove.me as a lecturer of a test automation course (Java stack) for a group of 15 people.",
+		"subtopic": "The following topics were covered during the course:",
+		"responsibilities": ["Tool for test automation", "Test automation frameworks", "Test automation techniques and patterns", "Build tools", "CI systems"]
+	},
+	{
+		"workplace": "Levi9 for Backbase",
+		"date": "April 2017 - Present",
+		"position": "Senior Test Automation Engineer (Consultant)",
+		"description": "I was working at Levi9 company as a consultant for Dutch company Backbase in RnD team which was responsible for developing newest features for Backbase banking application, improvements, PoC's, etc.",
+		"subtopic": "Responsibilities:",
+		"responsibilities": ["Developing automation framework from scratch and it's improving", "Developing autotests in BDD style using JS stack: Node.JS, ECMA6, Protractor, Cucumber.js", "Participating in setting QA process", "Setting CI pipeline for autotests and it’s supporting"]
+	},
+	{
+		"workplace": "EPAM Systems",
+		"date": "September 2015 - July 2016",
+		"position": "Test Automation Engineer",
+		"description": "I was involved as a test automation engineer into big e-commerce project for the biggest retail company in Canada along with huge, distributed and multilingual team.",
+		"subtopic": "Responsibilities:",
+		"responsibilities": ["Developing and support of BDD autotests using Java stack: Selenium Webdriver, Maven, Serenity, JBehave both for front-end and back-end", "Work with issues in order to cover requirements from customers, improving TAF (Test Automation Framework), analyzing and solving problems with high level of complexity", "CI system configuring", "Took part in execution of code review process", "Mentoring and lecturing students at Epam RD (resource development) lab"]
+	},
+	{
+		"workplace": "Softengi - Inspired Software Engineering",
+		"date": "June 2014 - September 2015",
+		"position": "Manual/Automation QA Engineer",
+		"description": "I worked as a Manual/Automation QA Engineer on ERP project for American company, it was old and huge application, just imagine - our automated regression test suite took about 16 hours to execute (in single thread).",
+		"subtopic": "Responsibilities:",
+		"responsibilities": ["Developing and supporting of automated tests using Java and C# stacks (Selenium Webdriver and Telerik Test Studio respectively)", "Manual testing: functional, GUI, smoke, acceptance, regression, cross-browser, cross-platform", "CI system configuring", "Bug tracking and reporting", "Work with Jira, SpiraTest, Confluence"]
+	
+	}
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "skill": "Programming languages",
+    "skillList": [
+      {
+        "name": "Java",
+        "stars": 5
+      },
+      {
+        "name": "Javascript",
+        "stars": 3
+      },
+      {
+        "name": "C#",
+        "stars": 3
+      }
+    ]
+  },
+  {
+    "skill": "Automated testing frameworks",
+    "skillList": [
+      {
+        "name": "Selenium Webdriver",
+        "stars": 5
+      },
+      {
+        "name": "Telerik Test Studio",
+        "stars": 3
+      }
+    ]
+  },
+  {
+    "skill": "Unit testing frameworks",
+    "skillList": [
+      {
+        "name": "JUnit",
+        "stars": 4
+      },
+      {
+        "name": "TestNG",
+        "stars": 4
+      },
+      {
+        "name": "JBehave",
+        "stars": 4
+      },
+      {
+        "name": "CucumberJS",
+        "stars": 4
+      },
+      {
+        "name": "Jasmine",
+        "stars": 2
+      }
+    ]
+  },
+  {
+    "skill": "Back-end technologies",
+    "skillList": [
+      {
+        "name": "Java EE",
+        "stars": 2
+      },
+      {
+        "name": "Spring Framework",
+        "stars": 2
+      },
+      {
+        "name": "Hibernate",
+        "stars": 2
+      }
+    ]
+  },
+  {
+    "skill": "Front-end technologies",
+    "skillList": [
+      {
+        "name": "HTML",
+        "stars": 3
+      },
+      {
+        "name": "CSS",
+        "stars": 3
+      },
+      {
+        "name": "Query",
+        "stars": "2"
+      },
+      {
+        "name": "Bootsrtap",
+        "stars": 3
+      }
+    ]
+  },
+  {
+    "skill": "Software version control tools",
+    "skillList": [
+      {
+        "name": "Git",
+        "stars": 4
+      },
+      {
+        "name": "Mercurial",
+        "stars": 2
+      },
+      {
+        "name": "SVN",
+        "stars": 1
+      }
+    ]
+  }
+]
