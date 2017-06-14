@@ -3,8 +3,8 @@ const router = express.Router();
 const workplacesJson = require('../public/json/workplaces.json');
 const skillsJson = require('../public/json/skills.json');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
+
+router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
 
