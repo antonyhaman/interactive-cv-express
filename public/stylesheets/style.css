@@ -26,7 +26,7 @@ hr {
 .jumbotron {
   color: white;
   height: 100vh;
-  background: no-repeat center right fixed url(../images/jumbotron-min.jpg);
+  background: no-repeat center right fixed url(../images/jumbotron.jpg);
   background-size: cover;
   margin-bottom: 0px;
 }
