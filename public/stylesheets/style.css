@@ -101,7 +101,6 @@ div .myname {
 }
 
 #profile h2 {
-  margin-top: 0px;
   text-align: center;
   color: #9068be;
   margin-top: 10px;
@@ -363,6 +362,10 @@ footer {
 
 /* Small devices (landscape phones, less than 768px)*/
 @media (min-width: 576px) and (max-width: 767px) {
+  .job > p.small {
+    margin-left: 10px;
+  }
+
   .job strong {
     font-weight: 800;
   }
