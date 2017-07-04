@@ -80,7 +80,7 @@ function renderSkillStars(elem) {
 function renderButton(parentElem) {
     let divContainer = $('<div class="col-sm-12 text-center no-print"></div>');
     $('<p id="cv-legend" class="small">Here is my CV in PDF</p>').appendTo(divContainer);
-    $('<a class="button" href="/documents/CV_Anton_Haman.pdf" target="_blank">CV</a>').appendTo(divContainer);
+    $('<a class="button" href="javascript:window.print()" target="_blank">CV</a>').appendTo(divContainer);
     parentElem.append(divContainer);
 }
 
