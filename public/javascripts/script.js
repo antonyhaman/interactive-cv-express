@@ -1,14 +1,14 @@
 const htmlElements = {
-    workplaceDiv: '<div class="col-sm-6 col-xs-12 job"></div>',
-    jobDetailsDiv: '<div class="col-sm-6 col-xs-12 job-details"></div>',
-    responsibilitiesList: '<ol style="list-style-type:disc"></ol>',
-    listElement: '<li></li>',
-    paragraph: '<p></p>',
+    div: '<div></div>',
+    span: '<span></span>',
+    ol: '<ol></ol>',
+    ul: '<ul></ul>',
+    li: '<li></li>',
+    p: '<p></p>',
+    br: '<br</br>',
+    a: '<a></a>',
     strong: '<strong></strong>',
-    skillDiv: '<div class="col-sm-6"></div>',
-    skillTitle: '<h2 class="text-left"></h2>',
-    skillUnorderedList: '<ul class="skills-list"></ul>',
-    skillLevel: '<span class="skill-level"></span>'
+    h2: '<h2></h2>'
 };
 
 $(function () {
@@ -39,8 +39,8 @@ $(function () {
 
 function renderSkills(response) {
     let skills = [];
-    skills.push(renderSkill(response.slice(0,3)));
-    skills.push(renderSkill(response.slice(3,6)));
+    skills.push(renderSkill(response.slice(0, 3)));
+    skills.push(renderSkill(response.slice(3, 6)));
 
     let parentElem = $('#skills').find('.row');
     skills.forEach(elem => parentElem.append(elem));
@@ -48,12 +48,12 @@ function renderSkills(response) {
 }
 
 function renderSkill(slicedResp) {
-    let skillDiv = $(htmlElements.skillDiv);
+    let skillDiv = $(htmlElements.div).addClass('col-sm-6');
 
     slicedResp.forEach(skillElem => {
-        let skillTitleElem = $(htmlElements.skillTitle);
+        let skillTitleElem = $(htmlElements.h2).addClass('text-left');
         skillTitleElem.text(skillElem.skill).appendTo(skillDiv);
-        let skillListUl = $(htmlElements.skillUnorderedList);
+        let skillListUl = $(htmlElements.ul).addClass('skills-list');
 
         skillElem.skillList.forEach(elem => renderSkillStars(elem).appendTo(skillListUl));
         skillDiv.append(skillListUl);
@@ -62,46 +62,52 @@ function renderSkill(slicedResp) {
 }
 
 function renderSkillStars(elem) {
-    let skillLevel = $(htmlElements.skillLevel);
-    let liElem = $(htmlElements.listElement);
-    liElem.append($('<span class="skill-name small"></span>').text(elem.name));
+    let skillLevel = $(htmlElements.span).addClass('skill-level');
+    let liElem = $(htmlElements.li);
+    liElem.append($(htmlElements.span).addClass('skill-name small').text(elem.name));
 
     let emptyStars = 5 - elem.stars;
     for (let i = 1; i <= elem.stars; i++) {
-        $('<span class="glyphicon glyphicon-star"></span>').appendTo(skillLevel);
+        $(htmlElements.span).addClass('glyphicon glyphicon-star').appendTo(skillLevel);
     }
     for (let i = 1; i <= emptyStars; i++) {
-        $('<span class="glyphicon glyphicon-star-empty"></span>').appendTo(skillLevel);
+        $(htmlElements.span).addClass('glyphicon glyphicon-star-empty').appendTo(skillLevel);
     }
     skillLevel.appendTo(liElem);
     return liElem;
 }
 
 function renderButton(parentElem) {
-    let divContainer = $('<div class="col-sm-12 text-center no-print"></div>');
-    $('<p id="cv-legend" class="small">Here is my CV in PDF</p>').appendTo(divContainer);
-    $('<a class="button" href="/documents/CV_Anton_Haman.pdf" target="_blank">CV</a>').appendTo(divContainer);
+    let divContainer = $(htmlElements.div).addClass('col-sm-12 text-center no-print');
+    $(htmlElements.p).addClass('small')
+        .attr('id', 'cv-legend')
+        .text('Here is my CV in PDF')
+        .appendTo(divContainer);
+    $(htmlElements.a).addClass('button')
+        .attr('href', '/documents/CV_Anton_Haman.pdf')
+        .attr('target', '_blank')
+        .text('CV')
+        .appendTo(divContainer);
     parentElem.append(divContainer);
 }
 
 function renderCareers(response) {
     let jobs = [];
     response.forEach(function (respElem) {
-        let divWork = $(htmlElements.workplaceDiv);
-        let divDetails = $(htmlElements.jobDetailsDiv);
+        let divWork = $(htmlElements.div).addClass('col-sm-6 col-xs-12 job');
+        let divDetails = $(htmlElements.div).addClass('col-sm-6 col-xs-12 job-details');
 
         $(htmlElements.strong).text(respElem.workplace).appendTo(divWork);
-        $('<br class="print-only">').appendTo(divWork);
-        $(htmlElements.paragraph).addClass("small").text(respElem.date).appendTo(divWork);
+        $(htmlElements.br).addClass('print-only').appendTo(divWork);
+        $(htmlElements.p).addClass("small").text(respElem.date).appendTo(divWork);
         $(htmlElements.strong).text(respElem.position).appendTo(divDetails);
-        $(htmlElements.paragraph).addClass("small").text(respElem.description).appendTo(divDetails);
-
+        $(htmlElements.p).addClass("small").text(respElem.description).appendTo(divDetails);
 
         if (respElem.subtopic !== undefined) {
-            let responsibilitiesList = $(htmlElements.responsibilitiesList);
-            $(htmlElements.paragraph).addClass("small").text(respElem.subtopic).appendTo(divDetails);
+            let responsibilitiesList = $(htmlElements.ol).attr('style', 'list-style-type:disc');
+            $(htmlElements.p).addClass("small").text(respElem.subtopic).appendTo(divDetails);
             respElem.responsibilities.forEach(function (elem) {
-                $(htmlElements.listElement).addClass("small").text(elem).appendTo(responsibilitiesList);
+                $(htmlElements.li).addClass("small").text(elem).appendTo(responsibilitiesList);
             });
             divDetails.append(responsibilitiesList);
         }

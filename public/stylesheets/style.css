@@ -231,6 +231,8 @@ footer {
 
 #contacts i {
   font-size: 30px;
+  position: relative;
+  top: 5px;
 }
 
 #contacts span {

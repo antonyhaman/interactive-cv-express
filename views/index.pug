@@ -1,75 +1,88 @@
 doctype html
 html(lang='en')
-  head
-    meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Anton Haman's Interactive CV
-    link(href='https://fonts.googleapis.com/css?family=Poppins:300,600,700', rel='stylesheet')
-    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', crossorigin='anonymous')
-    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css', integrity='sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp', crossorigin='anonymous')
-    link(rel='icon', type='image/png', sizes='96x96', href='/images/favicon-96x96.png')
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
-    link(rel='stylesheet', href='/stylesheets/style.css')
-    script(src='https://use.fontawesome.com/03f06f86ac.js')
-    script(src='/javascripts/typed.js')
-    script(src='/javascripts/script.js')
-  body
-    .jumbotron.text-center
-      .container
-        h1.myname
-        hr
-        p.no-print Interactive cv
-        p.print-only Personal CV
-      #scroll.no-print
-        span
-          a(href='#profile')
-            span.glyphicon.glyphicon-menu-down
-    #profile.container
-      .row
-        h1 Profile
-        p#title.lead.text-center QA Automation Engineer / Software Developer
-        hr
-        .col-sm-4.col-xs-12
-          h2 About me
-          span
-            | Hello, I'm Anton, specializing in automated testing of web applications and I'm also interested in software development both front-end and back-end. I'm really interested in technologies and having fun while coding something cool or learning some new stuff. I love getting things done and I also stand for quality, not because of my profession, but because of my nature
-        .col-sm-4.col-xs-6
-          p.text-center
-            img.img-circle(src='/images/myphoto.jpg', alt='Anton Haman')
-        #details.col-sm-4.col-xs-6
-          h2 Details
-          strong Name:
-          p Anton Haman
-          strong Age:
-          p 25
-          strong Location:
-          p Kiev, Ukraine
-    #careers.container-fluid
-      .container
-        .row
-          h1.text-center Experience
-          hr
-    #skills.container
-      .row
-        h1.text-center Skills
-        hr
-    footer
-      #contacts.container
-        .row
-          h1.text-center Contacts
-          hr
-          .col-md-4.col-sm-6.col-xs-12.text-left
-            a(href='mailto:anton.haman.92@gmail.com', target='_blank')
-              span
-                i.fa.fa-envelope(aria-hidden='true')
-                p anton.haman.92@gmail.com
-          .col-md-4.col-sm-6.col-xs-12.text-left
-            a(href='https://www.linkedin.com/in/anton-haman-691584a9', target='_blank')
-              span
-                i.fa.fa-linkedin-square(aria-hidden='true')
-                p linkedin.com/in/anton-haman
-          .col-md-4.col-sm-12.col-xs-12.text-left
-            a(href='https://www.facebook.com/anton.haman', target='_blank')
-              span
-                i.fa.fa-facebook-square(aria-hidden='true')
-                p facebook.com/anton.haman
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        title Anton Haman's Interactive CV
+        link(href='https://fonts.googleapis.com/css?family=Poppins:300,600,700', rel='stylesheet')
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', crossorigin='anonymous')
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css', integrity='sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp', crossorigin='anonymous')
+        link(rel='stylesheet', href='/stylesheets/fontawesome/style.css')
+        link(rel='icon', type='image/png', sizes='96x96', href='/images/favicon-96x96.png')
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        script(src='https://use.fontawesome.com/03f06f86ac.js')
+        script(src='/javascripts/typed.js')
+        script(src='/javascripts/script.js')
+    body
+        .jumbotron.text-center
+            .container
+                h1.myname
+                hr
+                p.no-print Interactive cv
+                p.print-only Personal CV
+            #scroll.no-print
+                span
+                    a(href='#profile')
+                        span.glyphicon.glyphicon-menu-down
+        #profile.container
+            .row
+                h1 Profile
+                p#title.lead.text-center QA Automation Engineer / Software Developer
+                hr
+                .col-sm-4.col-xs-12
+                    h2 About me
+                    span
+                        | Hello, I'm Anton, specializing in automated testing of web applications and I'm also interested in software development both front-end and back-end. I'm really interested in technologies and having fun while coding something cool or learning some new stuff. I love getting things done and I also stand for quality, not because of my profession, but because of my nature
+                .col-sm-4.col-xs-6
+                    p.text-center
+                        img.img-circle(src='/images/myphoto.jpg', alt='Anton Haman')
+                #details.col-sm-4.col-xs-6
+                    h2 Details
+                    strong Name:
+                    p Anton Haman
+                    strong Age:
+                    p 25
+                    strong Location:
+                    p Kiev, Ukraine
+        #careers.container-fluid
+            .container
+                .row
+                    h1.text-center Experience
+                    hr
+        #skills.container
+            .row
+                h1.text-center Skills
+                hr
+        footer
+            #contacts.container
+                .row
+                    h1.text-center Contacts
+                    hr
+                    .col-md-4.col-sm-6.col-xs-12.text-left
+                        a(href='https://www.linkedin.com/in/anton-haman-691584a9', target='_blank')
+                            span
+                                i.icon-linkedin-square
+                                p linkedin.com/in/anton-haman
+                    .col-md-4.col-sm-12.col-xs-12.text-left
+                        a(href='https://github.com/kotvertolet', target='_blank')
+                            span
+                                i.icon-github-square
+                                p github.com/kotvertolet
+                    .col-md-4.col-sm-12.col-xs-12.text-left
+                        a(href='https://www.facebook.com/anton.haman', target='_blank')
+                            span
+                                i.icon-facebook-square
+                                p facebook.com/anton.haman
+                    .col-md-4.col-sm-12.col-xs-12.text-left
+                        a(href='skype:anton.haman?add', target='_blank')
+                            span
+                                i.icon-skype
+                                p anton.haman
+                    .col-md-4.col-sm-6.col-xs-12.text-left
+                        a(href='mailto:anton.haman.92@gmail.com', target='_blank')
+                            span
+                                i.icon-envelope
+                                p anton.haman.92@gmail.com
+
+
