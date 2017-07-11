@@ -1,7 +1,6 @@
 /**
  * Module dependencies.
  */
-
 var app = require('../app');
 var debug = require('debug')('interactive-cv:server');
 var http = require('http');

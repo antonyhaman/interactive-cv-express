@@ -2,13 +2,13 @@
     {
 		"workplace": "Epam Systems",
 		"date": "April 2017 - Present",
-		"position": "Lecturer at Epam Resource Development Lab",
-		"description": "I work for Epam Resource Development Lab located in Kyiv Polytechnic Institute as a lecturer of a test automation course for a group of 25 people."
+		"position": "Teacher at Epam Resource Development Lab (outer)",
+		"description": "I work for Epam Resource Development Lab located at Kyiv Polytechnic Institute as a lecturer of a test automation course for a group of 25 people."
 	},
 	{
 		"workplace": "SmartImprove.me",
 		"date": "February 2017 - April 2017",
-		"position": "Lecturer & Mentor",
+		"position": "Teacher & Mentor",
 		"description": "I worked at SmartImprove.me as a lecturer of a test automation course (Java stack) for a group of 15 people.",
 		"subtopic": "The following topics were covered during the course:",
 		"responsibilities": ["Tool for test automation", "Test automation frameworks", "Test automation techniques and patterns", "Build tools", "CI systems"]
@@ -16,10 +16,18 @@
 	{
 		"workplace": "Levi9 for Backbase",
 		"date": "August 2017 - March 2017",
-		"position": "Senior Test Automation Engineer (Consultant)",
+		"position": "Senior Test Automation Engineer",
 		"description": "I was working at Levi9 company as a consultant for Dutch company Backbase in RnD team which was responsible for developing newest features for Backbase banking application, improvements, PoC's, etc.",
 		"subtopic": "Responsibilities:",
 		"responsibilities": ["Developing automation framework from scratch and it's improving", "Developing autotests in BDD style using JS stack: Node.JS, ECMA6, Protractor, Cucumber.js", "Participating in setting QA process", "Setting CI pipeline for autotests and it’s supporting"]
+	},
+	{
+		"workplace": "EPAM Systems",
+		"date": "April 2016 - August 2016",
+		"position": "Teacher at EPAM Resource Development Lab (internal)",
+		"description": "During my EPAM part of career I was involved as a teacher and mentor at internal RD Lab of a test automation course for the students who successfully accomplished the outer RD Lab training and preparing to start their work at production.",
+		"subtopic": "Responsibilities:",
+		"responsibilities": ["Teaching and mentoring the students of the EPAM’s RD Lab", "Developing lectures and materials for Automated Testing course"]
 	},
 	{
 		"workplace": "EPAM Systems",
