@@ -235,12 +235,12 @@ footer {
   top: 5px;
 }
 
-#contacts span {
+#contacts div {
   color: white;
   display: inline-block;
 }
 
-#contacts span:hover, #contacts span:active {
+#contacts div:hover, #contacts div:active {
   color: #cbb8e0;
 }
 
