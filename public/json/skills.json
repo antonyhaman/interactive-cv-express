@@ -11,7 +11,7 @@
         "stars": 3
       },
       {
-        "name": "C#",
+        "name": "Python",
         "stars": 3
       }
     ]
@@ -24,7 +24,7 @@
         "stars": 5
       },
       {
-        "name": "Telerik Test Studio",
+        "name": "Puppeteer",
         "stars": 3
       }
     ]
@@ -33,12 +33,12 @@
     "skill": "Unit testing frameworks",
     "skillList": [
       {
-        "name": "JUnit",
-        "stars": 4
+        "name": "JUnit 5",
+        "stars": 5
       },
       {
         "name": "TestNG",
-        "stars": 4
+        "stars": 5
       },
       {
         "name": "JBehave",
@@ -46,49 +46,11 @@
       },
       {
         "name": "CucumberJS",
-        "stars": 4
+        "stars": 3
       },
       {
         "name": "Jasmine",
         "stars": 2
-      }
-    ]
-  },
-  {
-    "skill": "Back-end technologies",
-    "skillList": [
-      {
-        "name": "Java EE",
-        "stars": 2
-      },
-      {
-        "name": "Spring Framework",
-        "stars": 2
-      },
-      {
-        "name": "Hibernate",
-        "stars": 2
-      }
-    ]
-  },
-  {
-    "skill": "Front-end technologies",
-    "skillList": [
-      {
-        "name": "HTML",
-        "stars": 3
-      },
-      {
-        "name": "CSS",
-        "stars": 3
-      },
-      {
-        "name": "Query",
-        "stars": "2"
-      },
-      {
-        "name": "Bootsrtap",
-        "stars": 3
       }
     ]
   },
@@ -106,6 +68,19 @@
       {
         "name": "SVN",
         "stars": 1
+      }
+    ]
+  },
+  {
+    "skill": "CI Systems",
+    "skillList": [
+      {
+        "name": "Jenkins",
+        "stars": 5
+      },
+      {
+        "name": "Teamcity",
+        "stars": 4
       }
     ]
   }

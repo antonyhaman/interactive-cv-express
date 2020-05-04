@@ -7,11 +7,11 @@ html(lang='en')
         link(href='https://fonts.googleapis.com/css?family=Poppins:300,600,700', rel='stylesheet')
         link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', crossorigin='anonymous')
         link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css', integrity='sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp', crossorigin='anonymous')
-        link(rel='stylesheet', href='/stylesheets/style.css')
+        link(rel='stylesheet', href='/css/style.css')
         script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
-        script(src='/javascripts/typed.js')
-        script(src='/javascripts/script.js')
-        link(rel='stylesheet', href='/stylesheets/fontawesome/style.css')
+        script(src='/javascript/typed.js')
+        script(src='/javascript/script.js')
+        script(src="https://kit.fontawesome.com/c22a1fcdac.js", crossorigin="anonymous")
         link(rel='icon', type='image/png', sizes='96x96', href='/images/favicon-96x96.png')
     body
         .jumbotron.text-center
@@ -32,7 +32,7 @@ html(lang='en')
                 .col-sm-4.col-xs-12
                     h2 About me
                     span
-                        | Hello, I'm Anton, specializing in automated testing of web applications and I'm also interested in software development both front-end and back-end. I'm really interested in technologies and having fun while coding something cool or learning some new stuff. I love getting things done and I also stand for quality, not because of my profession, but because of my nature
+                        | Hello, I'm Anton, automated testing professional and this is my interactive CV developed with Express.js, Pug and JQuery, it's source code is available on <a href="https://github.com/kotvertolet/interactive-cv-express">Github</a>. Obviously, I'm interested not only in software testing but also in it's development, currently mostly in Android development, but in the past I had some commercial Java back-end development experience. I'm developer and maintainer of android library <a href='https://github.com/kotvertolet/youtube-jextractor'>YoutubeJExtractor</a> and android application <a href='https://github.com/kotvertolet/youtube-audio-player'>Youtube Audio Player</a>.I believe every QA specialist should be a little bit of developer, it gives understanding of how the things he's trying to break are working and thus completely different and more effective testing approach.
                 .col-sm-4.col-xs-6
                     p.text-center
                         img.img-circle(src='/images/myphoto.jpg', alt='Photo of Anton Haman')
@@ -41,7 +41,7 @@ html(lang='en')
                     strong Name:
                     p Anton Haman
                     strong Age:
-                    p 25
+                    p=new Date().getFullYear() - 1992
                     strong Location:
                     p Kiev, Ukraine
         #careers.container-fluid
@@ -49,6 +49,10 @@ html(lang='en')
                 .row
                     h1.text-center Experience
                     hr
+                #showMore.col-sm-12.text-center.no-print
+                    span
+                        i
+                        p
         #skills.container
             .row
                 h1.text-center Skills
@@ -59,29 +63,29 @@ html(lang='en')
                     h1.text-center Contacts
                     hr
                     .col-md-4.col-sm-6.col-xs-12.text-left
-                        a(href='https://www.linkedin.com/in/anton-haman-691584a9', target='_blank')
+                        a(href='https://cutt.ly/qyjQUBI', target='_blank')
                             div
-                                i.icon-linkedin-square
+                                i.fab.fa-linkedin.fa-2x(aria-hidden='true')
                                 p linkedin.com/in/anton-haman
                     .col-md-4.col-sm-12.col-xs-12.text-left
                         a(href='https://github.com/kotvertolet', target='_blank')
                             div
-                                i.icon-github-square
+                                i.fab.fa-github-square.fa-2x(aria-hidden='true')
                                 p github.com/kotvertolet
                     .col-md-4.col-sm-12.col-xs-12.text-left
                         a(href='https://www.facebook.com/anton.haman', target='_blank')
                             div
-                                i.icon-facebook-square
+                                i.fab.fa-facebook-square.fa-2x(aria-hidden='true')
                                 p facebook.com/anton.haman
                     .col-md-4.col-sm-12.col-xs-12.text-left
                         a(href='skype:anton.haman?add', target='_blank')
                             div
-                                i.icon-skype
+                                i.fab.fa-skype.fa-2x(aria-hidden='true')
                                 p anton.haman
                     .col-md-4.col-sm-6.col-xs-12.text-left
                         a(href='mailto:anton.haman.92@gmail.com', target='_blank')
                             div
-                                i.icon-envelope
+                                i.fas.fa-envelope-square.fa-2x(aria-hidden='true')
                                 p anton.haman.92@gmail.com
 
 
