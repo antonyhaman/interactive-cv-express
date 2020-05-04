@@ -8,7 +8,7 @@
 		"responsibilities": ["Managing team of test automation engineers", "Developing and integrating test automation processes, approaches and base frameworks", "Implementing key utilities, tools and various helpers to ease test automation for the rest of the team", "Mentoring, code review", "Developing automated tests"]
 	},
 	{
-		"workplace": "Lohika",
+		"workplace": "Lohika Systems",
 		"date": "September 2017 - June 2019",
 		"position": "Senior Test Automation Engineer/Software developer",
 		"description": ""
@@ -35,7 +35,7 @@
 	},
 	{
 		"workplace": "Levi9",
-		"date": "April 2017 - Present",
+		"date": "April 2017 - March 2017",
 		"position": "Senior Test Automation Engineer",
 		"description": "I was working at Levi9 company as a consultant for Dutch company Backbase in RnD team which was responsible for developing newest features for Backbase banking application, improvements, PoC's, etc.",
 		"subtopic": "Responsibilities:",
@@ -56,6 +56,5 @@
 		"description": "I worked as a Manual/Automation QA Engineer on ERP project for American company, it was old and huge application, just imagine - our automated regression test suite took about 16 hours to execute (in single thread).",
 		"subtopic": "Responsibilities:",
 		"responsibilities": ["Developing and supporting of automated tests using Java and C# stacks (Selenium Webdriver and Telerik Test Studio respectively)", "Manual testing: functional, GUI, smoke, acceptance, regression, cross-browser, cross-platform", "CI system configuring", "Bug tracking and reporting", "Work with Jira, SpiraTest, Confluence"]
-	
 	}
 ]
