@@ -13,9 +13,11 @@ const htmlElements = {
 
 $(function () {
     $(".myname").typed({
-        strings: ["Anton Haman"],
+        strings: ["Anton ^100 Haman"],
         typeSpeed: 100,
-        showCursor: false,
+        showCursor: true,
+        cursorChar: '_',
+        autoInsertCss: true
     });
 });
 
@@ -134,20 +136,20 @@ function renderCareers(response) {
             isHidden = true;
             jobsToHide.forEach((e) => e.slideUp());
             renderShowMoreBlock(isHidden);
-            $('html, body').animate({ scrollTop: $('#careers').find('h1').offset().top}, 500);
+            $('html, body').animate({scrollTop: $('#careers').find('h1').offset().top}, 500);
         }
     });
 }
 
 function renderShowMoreBlock(isHidden) {
     let mainSpan = $('#showMore').find('span');
-    let icon =  mainSpan.find("i");
+    let icon = mainSpan.find("i");
     let paragraph = mainSpan.find("p");
 
     let chevronDownClass = 'fas fa-angle-double-down fa-2x';
     let chevronUpClass = 'fas fa-angle-double-up fa-2x"';
 
-    if(isHidden) {
+    if (isHidden) {
         icon.removeClass(icon.attr("class"));
         icon.addClass(chevronDownClass);
         paragraph.text("Show more")

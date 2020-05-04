@@ -1,530 +1,562 @@
 * {
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 
 h1 {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .container {
-  max-width: 1280px;
+    max-width: 1280px;
 }
 
 .row h1 {
-  text-align: center;
-  color: #9068be;
+    text-align: center;
+    color: #9068be;
 }
 
 hr {
-  width: 60%;
-  margin: 10px auto;
+    width: 60%;
+    margin: 10px auto;
 }
-
 
 /* Jumbotron block starts */
 .jumbotron {
-  color: white;
-  height: 100vh;
-  background: no-repeat center right fixed url(../images/jumbotron.jpg);
-  background-size: cover;
-  margin-bottom: 0px;
+    color: white;
+    height: 100vh;
+    background: no-repeat center right fixed url(../images/jumbotron.jpg);
+    background-size: cover;
+    margin-bottom: 0px;
 }
 
 .jumbotron > div {
-  position: relative;
+    position: relative;
 }
 
 .jumbotron hr {
-  opacity: 0.3;
+    opacity: 0.3;
 }
 
 div .myname {
-  font-size: 3em;
-  font-weight: bold;
-  margin-bottom: 0px;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0px;
+    display: contents;
+}
+
+.typed-cursor {
+    font-size: 3em;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 #title {
-  margin-bottom: 10px;
-  font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 #scroll {
-  position: absolute;
-  bottom: 40px;
-  right: 0px;
-  width: 100%;
-  height: 25px;
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+    width: 100%;
+    height: 25px;
 }
 
 #scroll a > span {
-  font-size: 40px;
-  font-weight: bold;
-  color: white;
-  animation-name: chevron-animation;
-  animation-iteration-count: infinite;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-direction: normal;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    animation-name: chevron-animation;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-direction: normal;
 }
 
 @keyframes chevron-animation {
-  0% {
-    top: 15px;
-  }
-  25% {
-    top: 18px;
-  }
-  50% {
-    top: 22px;
-  }
-  75% {
-    top: 18px;
-  }
-  100% {
-    top: 15px;
-  }
+    0% {
+        top: 15px;
+    }
+    25% {
+        top: 18px;
+    }
+    50% {
+        top: 22px;
+    }
+    75% {
+        top: 18px;
+    }
+    100% {
+        top: 15px;
+    }
 }
-/* Jumbotron block ends */
 
+/* Jumbotron block ends */
 
 /*Profile block start*/
 #profile {
-  padding-bottom: 15px;
-  min-height: 500px;
+    padding-bottom: 15px;
+    min-height: 500px;
 }
 
 #profile hr {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 #profile h2 {
-  text-align: center;
-  color: #9068be;
-  margin-top: 10px;
-  font-weight: lighter;
+    text-align: center;
+    color: #9068be;
+    margin-top: 10px;
+    font-weight: lighter;
 }
 
 #profile span {
-  text-align: left;
-  font-size: 14px;
-  font-weight: 100;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 100;
 }
 
 #profile img {
-  height: 150px;
-  width: 150px;
-  margin-top: 30px;
-  border: 2px solid #9068be;
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    border: 2px solid #9068be;
 }
 
 #details {
-  font-size: 14px;
-  font-weight: 100;
+    font-size: 14px;
+    font-weight: 100;
 }
-/*Profile block ends*/
 
+/*Profile block ends*/
 
 /* Careers block starts */
 #careers {
-  padding: 0px;
-  background-color: #e1e8f0;
+    padding: 0px;
+    background-color: #e1e8f0;
 }
 
 #showMore span {
-  color: #9068be;
-  cursor: pointer;
-  font-size: 20px;
+    color: #9068be;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 #showMore span:hover, #showMore span:active, #showMore span:focus {
-  color: #9068be;
-  text-decoration: none;
-  opacity: 0.8;
+    color: #9068be;
+    text-decoration: none;
+    opacity: 0.8;
 }
 
-#showMore i{
-  font-size: inherit;
+#showMore i {
+    font-size: inherit;
 }
 
 #showMore p {
-  font-size: inherit;
-  display: inline;
-  padding-left: 10px
+    font-size: inherit;
+    display: inline;
+    padding-left: 10px
 }
 
 /* Careers block ends */
 
 /* Common for both starts */
 #careers hr, #skills hr {
-  border-color: #727878;
-  opacity: 0.1;
+    border-color: #727878;
+    opacity: 0.1;
 }
-/* Common for both ends */
 
+/* Common for both ends */
 
 /* Skills block starts */
 #skills h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 #skills ul {
-  list-style: none;
+    list-style: none;
 }
 
 .skill-name {
-  display: inline-block;
-  width: 60%;
+    display: inline-block;
+    width: 60%;
 }
 
 #skills li:hover {
-  background-color: #DFE0E0;
+    background-color: #DFE0E0;
 }
 
 .skill-level {
-  float: right;
+    float: right;
 }
 
 .skill-level > span {
-  margin-left: 1px;
-  -webkit-transition: margin-left 0.3s ease-out 0s;
-  -moz-transition: margin-left 0.3s ease-out 0s;
-  -o-transition: margin-left 0.3s ease-out 0s;
-  transition: margin-left,font-size 250ms linear 0s;
-  font-size: 12px;
-  color: #9068be;
+    margin-left: 1px;
+    -webkit-transition: margin-left 0.3s ease-out 0s;
+    -moz-transition: margin-left 0.3s ease-out 0s;
+    -o-transition: margin-left 0.3s ease-out 0s;
+    transition: margin-left, font-size 250ms linear 0s;
+    font-size: 12px;
+    color: #9068be;
 }
 
 .skills-list li:hover .skill-level > span {
-  margin-left: 2px;
-  font-size: 13px;
+    margin-left: 2px;
+    font-size: 13px;
 }
 
 #cv-legend {
-  font-style: italic;
-  margin-top: 20px;
+    font-style: italic;
+    margin-top: 20px;
 }
 
 .button {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0px 20px;
-  margin: 0px 10px 0px;
-  border: 1px solid #9068be;
-  font-size: 24px;
-  color: #9068be;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 0px 10px 0px;
+    border: 1px solid #9068be;
+    font-size: 24px;
+    color: #9068be;
 }
 
 .button:hover, .button:active, .button:focus {
-  color: #9068be;
-  text-decoration: none;
-  opacity: 0.8;
+    color: #9068be;
+    text-decoration: none;
+    opacity: 0.8;
 }
 
 #download {
-  margin-top: 30px;
+    margin-top: 30px;
 }
-/* Skills block ends */
 
+/* Skills block ends */
 
 /* Footer block starts */
 footer {
-  max-height: 400px;
-  background-color: #707880;
+    max-height: 400px;
+    background-color: #707880;
 }
 
 #contacts {
-  padding-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 #contacts h1 {
-  color: white;
+    color: white;
 }
 
 #contacts hr {
-  opacity: 0.2;
+    opacity: 0.2;
 }
 
 #contacts .row > div {
-  padding-top: 20px;
+    padding-top: 20px;
 }
 
 #contacts i {
-  font-size: 30px;
-  position: relative;
-  top: 5px;
+    font-size: 30px;
+    position: relative;
+    top: 5px;
 }
 
 #contacts div {
-  color: white;
-  display: inline-block;
+    color: white;
+    display: inline-block;
 }
 
 #contacts div:hover, #contacts div:active {
-  color: #cbb8e0;
+    color: #cbb8e0;
 }
 
 #contacts p {
-  height: 20px;
-  padding-left: 10px;
-  padding-bottom: 5px;
-  display: inline;
+    height: 20px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    display: inline;
 }
 
 #contacts a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 /* Footer block ends */
 
 .print-only {
-  display: none;
+    display: none;
 }
 
-@media print
-{
-  .to-print {
-    display: block !important;
-  }
+@media print {
+    .to-print {
+        display: block !important;
+    }
 
-  .no-print
-  {
-    display: none !important;
-  }
+    .no-print {
+        display: none !important;
+    }
 
-  .print-only {
-    display: block !important;
-  }
+    .print-only {
+        display: block !important;
+    }
 
-  p.print-styling {
-    margin-left: 10px;
-  }
+    p.print-styling {
+        margin-left: 10px;
+    }
 
-  #profile img {
-    border-color: transparent;
-  }
+    #profile img {
+        border-color: transparent;
+    }
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) and (max-height: 360px) {
-  #profile img {
-    margin-top: 50px;
-    height: 120px;
-    width: 120px;
-  }
+    #profile img {
+        margin-top: 50px;
+        height: 120px;
+        width: 120px;
+    }
 
-  .job strong {
-    font-weight: 800;
-  }
+    .job strong {
+        font-weight: 800;
+    }
 
-  .job p {
-    display: inline;
-  }
+    .job p {
+        display: inline;
+    }
 
-  .job-details strong {
-    font-weight: 600;
-    font-size: 95%;
-  }
+    .job-details strong {
+        font-weight: 600;
+        font-size: 95%;
+    }
 
-  .container {
-    padding: 0px 20px 10px;
-  }
+    .container {
+        padding: 0px 20px 10px;
+    }
 
-  .jumbotron > .container {
-    position: relative;
-    top: 8%;
-  }
+    .jumbotron > .container {
+        position: relative;
+        top: 8%;
+    }
 
-  #skills ul {
-    padding-left: 0px;
-  }
+    #skills ul {
+        padding-left: 0px;
+    }
 
-  #contacts p {
-    font-size: 14px;
-  }
+    #contacts p {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 575px) and (min-height: 361px) and (max-height: 768px) {
-  #profile img {
-    margin-top: 50px;
-    height: 120px;
-    width: 120px;
-  }
+    #profile img {
+        margin-top: 50px;
+        height: 120px;
+        width: 120px;
+    }
 
-  .job strong {
-    font-weight: 800;
-  }
+    .job strong {
+        font-weight: 800;
+    }
 
-  .job p {
-    display: inline;
-  }
+    .job p {
+        display: inline;
+    }
 
-  .job-details strong {
-    font-weight: 600;
-    font-size: 95%;
-  }
+    .job-details strong {
+        font-weight: 600;
+        font-size: 95%;
+    }
 
-  .container {
-    padding: 0px 20px 20px;
-  }
+    .container {
+        padding: 0px 20px 20px;
+    }
 
-  .jumbotron > .container {
-    position: relative;
-    top: 15%;
-  }
-  #title {
-    font-size: 18px;
-  }
+    .jumbotron > .container {
+        position: relative;
+        top: 15%;
+    }
 
-  #skills ul {
-    padding: 0px 30px;
-  }
+    #title {
+        font-size: 18px;
+    }
 
-  #contacts p {
-    font-size: 14px;
-  }
+    #skills ul {
+        padding: 0px 30px;
+    }
+
+    #contacts p {
+        font-size: 14px;
+    }
 }
-
 
 /* Small devices (landscape phones, less than 768px)*/
 @media (min-width: 576px) and (max-width: 767px) {
-  .job > p.small {
-    margin-left: 10px;
-  }
+    .job > p.small {
+        margin-left: 10px;
+    }
 
-  .job strong {
-    font-weight: 800;
-  }
+    .job strong {
+        font-weight: 800;
+    }
 
-  .job p {
-    display: inline;
-  }
+    .job p {
+        display: inline;
+    }
 
-  .job-details strong {
-    font-weight: 600;
-    font-size: 95%;
-  }
+    .job-details strong {
+        font-weight: 600;
+        font-size: 95%;
+    }
 
-  .container {
-    padding: 0px 20px 20px;
-  }
+    .container {
+        padding: 0px 20px 20px;
+    }
 
-  .jumbotron > .container {
-    position: relative;
-    top: 15%;
-  }
+    .jumbotron > .container {
+        position: relative;
+        top: 15%;
+    }
 
-  #skills ul {
-    padding-left: 0px;
-  }
+    #skills ul {
+        padding-left: 0px;
+    }
 
-  #contacts p {
-    font-size: 14px;
-  }
+    #contacts p {
+        font-size: 14px;
+    }
 }
-
 
 /* Medium devices (tablets, less than 992px)*/
 @media (min-width: 768px) and (max-width: 991px) {
-  .container {
-    padding: 0px 40px 20px;
-  }
+    .container {
+        padding: 0px 40px 20px;
+    }
 
-  .jumbotron > .container {
-    top: 20%;
-  }
-  #profile {
-    min-height: 400px;
-  }
-  #careers img {
-    height: 160px;
-    width: 160px;
-  }
+    .jumbotron > .container {
+        top: 20%;
+    }
+
+    #profile {
+        min-height: 400px;
+    }
+
+    #careers img {
+        height: 160px;
+        width: 160px;
+    }
 }
-
 
 /* Large devices (desktops, less than 1600px)*/
 @media (min-width: 992px) and (max-width: 1599px) {
-  .container {
-    padding: 0px 40px 20px;
-  }
+    .container {
+        padding: 0px 40px 20px;
+    }
 
-  .jumbotron > .container {
-    top: 25%;
-  }
-  #profile {
-    min-height: 400px;
-  }
-  #careers img {
-    height: 160px;
-    width: 160px;
-  }
+    .jumbotron > .container {
+        top: 25%;
+    }
+
+    #profile {
+        min-height: 400px;
+    }
+
+    #careers img {
+        height: 160px;
+        width: 160px;
+    }
 }
-
 
 /* Extra large devices (desktops, 1600px and more)*/
 @media (min-width: 1600px) {
-  .container {
-    padding: 0px 40px 20px;
-  }
+    .container {
+        padding: 0px 40px 20px;
+    }
 
-  .jumbotron > .container {
-    top: 25%;
-  }
-  #profile {
-    min-height: 400px;
-  }
-  #careers img {
-    height: 160px;
-    width: 160px;
-  }
+    .jumbotron > .container {
+        top: 25%;
+    }
+
+    #profile {
+        min-height: 400px;
+    }
+
+    #careers img {
+        height: 160px;
+        width: 160px;
+    }
 }
-
 
 /* For full HD laptops */
 @media (width: 1920px) and (height: 1080px) {
-  .container {
-    padding: 0px 40px 20px;
-  }
+    .container {
+        padding: 0px 40px 20px;
+    }
 
-  .jumbotron > .container {
-    top: 25%;
-  }
-  #profile {
-    min-height: 400px;
-  }
-  #careers img {
-    height: 160px;
-    width: 160px;
-  }
+    .jumbotron > .container {
+        top: 25%;
+    }
+
+    #profile {
+        min-height: 400px;
+    }
+
+    #careers img {
+        height: 160px;
+        width: 160px;
+    }
 }
-
 
 /* For Ipad portrait */
 @media (width: 768px) and (height: 1024px) {
-  .container {
-    padding: 0px 20px 20px;
-  }
+    .container {
+        padding: 0px 20px 20px;
+    }
 
-  .jumbotron > .container {
-    position: relative;
-    top: 30%;
-  }
+    .jumbotron > .container {
+        position: relative;
+        top: 30%;
+    }
 }
-
 
 /* For Ipad landscape */
 @media (width: 1024px) and (height: 768px) {
-  .container {
-    padding: 0px 20px 20px;
-  }
+    .container {
+        padding: 0px 20px 20px;
+    }
 
-  .jumbotron > .container {
-    position: relative;
-    top: 30%;
-  }
+    .jumbotron > .container {
+        position: relative;
+        top: 30%;
+    }
 }
