@@ -78,22 +78,15 @@ function renderSkillStars(elem) {
 }
 
 function renderButton(parentElem) {
-    let divContainer = $(htmlElements.div).addClass('col-sm-12 text-center no-print');
-    $(htmlElements.p).addClass('small')
-        .attr('id', 'cv-legend')
-        .text('Here is my CV in PDF')
-        .appendTo(divContainer);
-    $(htmlElements.a).addClass('button')
-        .attr('href', '/documents/CV_Anton_Haman.pdf')
-        .attr('target', '_blank')
-        .text('CV')
-        .appendTo(divContainer);
+    let divContainer = $('<div class="col-sm-12 text-center no-print" id="download"></div>');
+    $('<a class="button" target="_blank">Download this CV in PDF</a>').appendTo(divContainer).on('click', () => window.print());
     parentElem.append(divContainer);
 }
 
 function renderCareers(response) {
     let jobs = [];
     response.forEach(function (respElem) {
+        let container = $(htmlElements.div).addClass('container to-print');
         let divWork = $(htmlElements.div).addClass('col-sm-6 col-xs-12 job');
         let divDetails = $(htmlElements.div).addClass('col-sm-6 col-xs-12 job-details');
 
@@ -112,11 +105,56 @@ function renderCareers(response) {
             divDetails.append(responsibilitiesList);
         }
 
-        jobs.push(divWork);
-        jobs.push(divDetails);
+        container.append(divWork, divDetails);
+        jobs.push(container);
     });
 
     jobs.forEach(function (elem) {
         $('#careers').find('.row').append(elem);
-    })
+    });
+
+    let isHidden = false;
+    let jobsToHide = [];
+    if (jobs.length > 4) {
+        jobs.slice(4).forEach((elem) => {
+            elem.hide();
+            jobsToHide.push(elem);
+            isHidden = true;
+        });
+        renderShowMoreBlock(isHidden);
+    }
+    $('#showMore').find('span').on('click', function (e) {
+        e.preventDefault();
+        if (isHidden) {
+            isHidden = false;
+            jobsToHide.forEach((e) => e.slideDown());
+            renderShowMoreBlock(isHidden);
+        }
+        else {
+            isHidden = true;
+            jobsToHide.forEach((e) => e.slideUp());
+            renderShowMoreBlock(isHidden);
+            $('html, body').animate({ scrollTop: $('#careers').find('h1').offset().top}, 500);
+        }
+    });
+}
+
+function renderShowMoreBlock(isHidden) {
+    let mainSpan = $('#showMore').find('span');
+    let icon =  mainSpan.find("i");
+    let paragraph = mainSpan.find("p");
+
+    let chevronDownClass = 'fas fa-angle-double-down fa-2x';
+    let chevronUpClass = 'fas fa-angle-double-up fa-2x"';
+
+    if(isHidden) {
+        icon.removeClass(icon.attr("class"));
+        icon.addClass(chevronDownClass);
+        paragraph.text("Show more")
+    }
+    else {
+        icon.removeClass(icon.attr("class"));
+        icon.addClass(chevronUpClass);
+        paragraph.text("Show less");
+    }
 }

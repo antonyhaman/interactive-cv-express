@@ -7,6 +7,7 @@
 h1 {
   font-weight: 600;
 }
+
 .container {
   max-width: 1280px;
 }
@@ -52,14 +53,14 @@ div .myname {
 
 #scroll {
   position: absolute;
-  bottom: 30px;
+  bottom: 40px;
   right: 0px;
   width: 100%;
   height: 25px;
 }
 
 #scroll a > span {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   color: white;
   animation-name: chevron-animation;
@@ -117,7 +118,7 @@ div .myname {
   height: 150px;
   width: 150px;
   margin-top: 30px;
-  border: 3px solid #9068be;
+  border: 2px solid #9068be;
 }
 
 #details {
@@ -133,9 +134,28 @@ div .myname {
   background-color: #e1e8f0;
 }
 
-#careers .row div {
-  padding-bottom: 10px;
+#showMore span {
+  color: #9068be;
+  cursor: pointer;
+  font-size: 20px;
 }
+
+#showMore span:hover, #showMore span:active, #showMore span:focus {
+  color: #9068be;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+#showMore i{
+  font-size: inherit;
+}
+
+#showMore p {
+  font-size: inherit;
+  display: inline;
+  padding-left: 10px
+}
+
 /* Careers block ends */
 
 /* Common for both starts */
@@ -190,19 +210,23 @@ div .myname {
 }
 
 .button {
+  cursor: pointer;
   display: inline-block;
   padding: 0px 20px;
   margin: 0px 10px 0px;
   border: 1px solid #9068be;
-  font-size: 20px;
+  font-size: 24px;
   color: #9068be;
-
 }
 
 .button:hover, .button:active, .button:focus {
   color: #9068be;
   text-decoration: none;
   opacity: 0.8;
+}
+
+#download {
+  margin-top: 30px;
 }
 /* Skills block ends */
 
@@ -263,6 +287,10 @@ footer {
 
 @media print
 {
+  .to-print {
+    display: block !important;
+  }
+
   .no-print
   {
     display: none !important;

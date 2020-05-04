@@ -1,37 +1,49 @@
 [
+	{
+		"workplace": "FDI Ukraine",
+		"date": "July 2019 - March 2020",
+		"position": "Test Automation Tech Lead",
+		"description": "",
+		"subtopic": "Key responsibilities:",
+		"responsibilities": ["Managing team of test automation engineers", "Developing and integrating test automation processes, approaches and base frameworks", "Implementing key utilities, tools and various helpers to ease test automation for the rest of the team", "Mentoring, code review", "Developing automated tests"]
+	},
+	{
+		"workplace": "Lohika",
+		"date": "September 2017 - June 2019",
+		"position": "Senior Test Automation Engineer/Software developer",
+		"description": ""
+	},
+	{
+		"workplace": "State University of Telecommunications",
+		"date": "September 2017 - June 2018",
+		"position": "University Lecturer",
+		"description": "I worked as a lecturer in software engineering and quality assurance fields for more than 200 students in total, it was awesome, but exhausting :)"
+	},
     {
 		"workplace": "Epam Systems",
-		"date": "April 2017 - Present",
-		"position": "Teacher at Epam Resource Development Lab (outer)",
-		"description": "I work for Epam Resource Development Lab located at Kyiv Polytechnic Institute as a lecturer of a test automation course for a group of 30 people."
+		"date": "April 2017 - August 2017",
+		"position": "Test automation lecturer and mentor at Epam Resource Development Lab",
+		"description": "I worked for Epam Resource Development Lab located in Kyiv Polytechnic Institute as a lecturer of test automation course for a group of 20+ persons."
 	},
 	{
 		"workplace": "SmartImprove.me",
 		"date": "February 2017 - April 2017",
-		"position": "Teacher & Mentor",
-		"description": "I worked at SmartImprove.me as a lecturer of a test automation course (Java stack) for a group of 15 people.",
+		"position": "Lecturer & Mentor",
+		"description": "",
 		"subtopic": "The following topics were covered during the course:",
-		"responsibilities": ["Tools for test automation", "Test automation frameworks", "Test automation techniques and patterns", "Build tools", "CI systems"]
+		"responsibilities": ["Tool for test automation", "Test automation frameworks", "Test automation techniques and patterns", "Build tools", "CI systems"]
 	},
 	{
-		"workplace": "Levi9 for Backbase",
-		"date": "August 2016 - March 2017",
+		"workplace": "Levi9",
+		"date": "April 2017 - Present",
 		"position": "Senior Test Automation Engineer",
 		"description": "I was working at Levi9 company as a consultant for Dutch company Backbase in RnD team which was responsible for developing newest features for Backbase banking application, improvements, PoC's, etc.",
 		"subtopic": "Responsibilities:",
-		"responsibilities": ["Developing automation framework from scratch and it's improving", "Developing autotests in BDD style using JS stack: Node.JS, ECMA6, Protractor, Cucumber.js", "Participating in setting the QA processes", "Setting the CI pipeline for autotests and it’s supporting", "Acting as a team leader for a group of 2 test automation engineers"]
+		"responsibilities": ["Developing automation framework from scratch and it's improving", "Developing autotests in BDD style using JS stack: Node.JS, ECMA6, Protractor, Cucumber.js", "Participating in setting QA process", "Setting CI pipeline for autotests and it’s supporting"]
 	},
 	{
 		"workplace": "EPAM Systems",
-		"date": "April 2016 - August 2016",
-		"position": "Teacher at EPAM Resource Development Lab (internal)",
-		"description": "During my EPAM part of career I was involved as a teacher and mentor at internal RD Lab of a test automation course for the students who successfully accomplished the outer RD Lab training and preparing to start their work at production.",
-		"subtopic": "Responsibilities:",
-		"responsibilities": ["Teaching and mentoring the students of the EPAM’s RD Lab", "Developing lectures and materials for Automated Testing course"]
-	},
-	{
-		"workplace": "EPAM Systems",
-		"date": "September 2015 - August 2016",
+		"date": "September 2015 - July 2016",
 		"position": "Test Automation Engineer",
 		"description": "I was involved as a test automation engineer into big e-commerce project for the biggest retail company in Canada along with huge, distributed and multilingual team.",
 		"subtopic": "Responsibilities:",
