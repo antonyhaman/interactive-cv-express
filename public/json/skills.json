@@ -24,6 +24,10 @@
         "stars": 5
       },
       {
+        "name": "Webdriver.IO",
+        "stars": 3
+      },
+      {
         "name": "Puppeteer",
         "stars": 3
       }
@@ -46,11 +50,11 @@
       },
       {
         "name": "CucumberJS",
-        "stars": 3
+        "stars": 2
       },
       {
         "name": "Jasmine",
-        "stars": 2
+        "stars": 3
       }
     ]
   },
