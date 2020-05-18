@@ -49,12 +49,12 @@
         "stars": 4
       },
       {
-        "name": "CucumberJS",
-        "stars": 2
-      },
-      {
         "name": "Jasmine",
         "stars": 3
+      },
+      {
+        "name": "CucumberJS",
+        "stars": 2
       }
     ]
   },
@@ -63,15 +63,15 @@
     "skillList": [
       {
         "name": "Git",
-        "stars": 4
+        "stars": 5
       },
       {
         "name": "Mercurial",
-        "stars": 2
+        "stars": 3
       },
       {
         "name": "SVN",
-        "stars": 1
+        "stars": 3
       }
     ]
   },
@@ -84,7 +84,7 @@
       },
       {
         "name": "Teamcity",
-        "stars": 4
+        "stars": 5
       }
     ]
   }
