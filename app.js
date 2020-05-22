@@ -1,18 +1,21 @@
 const express = require('express');
-let path = require('path');
-let favicon = require('serve-favicon');
-let logger = require('morgan');
-let cookieParser = require('cookie-parser');
-let bodyParser = require('body-parser');
-let index = require('./routes/index');
-let compression = require('compression');
+const path = require('path');
+const favicon = require('serve-favicon');
+const logger = require('morgan');
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
+const index = require('./routes/index');
+const compression = require('compression');
+const cssMinify = require('express-minify');
 
-let app = express();
-app.use(compression());
+const app = express();
+app.use(compression({level: 6, threshold: 300}));
+app.use(cssMinify({
+    cache: __dirname + '/public/cache',
+}));
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
-
 
 app.use(favicon(path.join(__dirname, 'public/images', 'favicon-96x96.png')));
 app.use(logger('dev'));

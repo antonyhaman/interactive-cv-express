@@ -12,7 +12,7 @@
       },
       {
         "name": "Python",
-        "stars": 3
+        "stars": 2
       }
     ]
   },
@@ -21,6 +21,10 @@
     "skillList": [
       {
         "name": "Selenium Webdriver",
+        "stars": 5
+      },
+      {
+        "name": "Selenide",
         "stars": 5
       },
       {
@@ -66,12 +70,12 @@
         "stars": 5
       },
       {
-        "name": "Mercurial",
+        "name": "SVN",
         "stars": 3
       },
       {
-        "name": "SVN",
-        "stars": 3
+        "name": "Mercurial",
+        "stars": 2
       }
     ]
   },
@@ -85,6 +89,19 @@
       {
         "name": "Teamcity",
         "stars": 5
+      }
+    ]
+  },
+  {
+    "skill": "Build systems",
+    "skillList": [
+      {
+        "name": "Maven",
+        "stars": 5
+      },
+      {
+        "name": "Gradle",
+        "stars": 2
       }
     ]
   }

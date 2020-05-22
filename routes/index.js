@@ -3,7 +3,6 @@ const router = express.Router();
 const workplacesJson = require('../public/json/workplaces.json');
 const skillsJson = require('../public/json/skills.json');
 
-
 router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
