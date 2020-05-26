@@ -188,6 +188,10 @@ div .myname {
     padding-left: 10px
 }
 
+#careers h2 {
+    color: #9068be;
+}
+
 /* Careers block ends */
 
 /* Common for both starts */
@@ -322,7 +326,7 @@ footer {
         display: block !important;
     }
 
-    .no-print {
+    .no-print, typed-cursor {
         display: none !important;
     }
 

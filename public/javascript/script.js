@@ -6,9 +6,11 @@ const htmlElements = {
     li: '<li></li>',
     p: '<p></p>',
     br: '<br</br>',
+    hr: '<hr>',
     a: '<a></a>',
     strong: '<strong></strong>',
-    h2: '<h2></h2>'
+    h2: '<h2></h2>',
+    h1: '<h1></h1>'
 };
 
 $(function () {
@@ -87,30 +89,40 @@ function renderButton(parentElem) {
 
 function renderCareers(response) {
     let jobs = [];
+    let mentoring = []
     response.forEach(function (respElem) {
-        let container = $(htmlElements.div).addClass('container to-print');
-        let divWork = $(htmlElements.div).addClass('col-sm-6 col-xs-12 job');
-        let divDetails = $(htmlElements.div).addClass('col-sm-6 col-xs-12 job-details');
+            let container = $(htmlElements.div).addClass('container to-print');
+            let divWork = $(htmlElements.div).addClass('col-sm-6 col-xs-12 job');
+            let divDetails = $(htmlElements.div).addClass('col-sm-6 col-xs-12 job-details');
 
-        $(htmlElements.strong).text(respElem.workplace).appendTo(divWork);
-        $(htmlElements.br).addClass('print-only').appendTo(divWork);
-        $(htmlElements.p).addClass("small").text(respElem.date).appendTo(divWork);
-        $(htmlElements.strong).text(respElem.position).appendTo(divDetails);
-        $(htmlElements.p).addClass("small").text(respElem.description).appendTo(divDetails);
+            $(htmlElements.strong).text(respElem.workplace).appendTo(divWork);
+            $(htmlElements.br).addClass('print-only').appendTo(divWork);
+            $(htmlElements.p).addClass("small").text(respElem.date).appendTo(divWork);
+            $(htmlElements.strong).text(respElem.position).appendTo(divDetails);
+            $(htmlElements.p).addClass("small").text(respElem.description).appendTo(divDetails);
 
-        if (respElem.subtopic !== undefined) {
-            let responsibilitiesList = $(htmlElements.ol).attr('style', 'list-style-type:disc');
-            $(htmlElements.p).addClass("small").text(respElem.subtopic).appendTo(divDetails);
-            respElem.responsibilities.forEach(function (elem) {
-                $(htmlElements.li).addClass("small").text(elem).appendTo(responsibilitiesList);
-            });
-            divDetails.append(responsibilitiesList);
-        }
-
+            if (respElem.subtopic !== undefined) {
+                let responsibilitiesList = $(htmlElements.ol).attr('style', 'list-style-type:disc');
+                $(htmlElements.p).addClass("small").text(respElem.subtopic).appendTo(divDetails);
+                respElem.responsibilities.forEach(function (elem) {
+                    $(htmlElements.li).addClass("small").text(elem).appendTo(responsibilitiesList);
+                });
+                divDetails.append(responsibilitiesList);
+            }
         container.append(divWork, divDetails);
-        jobs.push(container);
-    });
+        if (respElem.mentoring === true) {
+            mentoring.push(container);
+        }
+        else {
+            jobs.push(container);
+        }
+    })
 
+    let divRow = $(htmlElements.div).addClass('row').addClass('to-print');
+    divRow.append($(htmlElements.h2).addClass('text-center').text("Mentoring"));
+    divRow.append($(htmlElements.hr));
+    divRow.append(mentoring);
+    jobs.push(divRow);
     jobs.forEach(function (elem) {
         $('#careers').find('.row').append(elem);
     });
