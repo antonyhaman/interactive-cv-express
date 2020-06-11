@@ -18,6 +18,7 @@
 		"date": "July 2017 - April 2019",
 		"position": "Senior Test Automation Engineer/Java Backend Developer",
 		"description": "At the start of my career in Lohika company I was involved as Automation Engineer, but later I've switched to Java Backend Developer position in a response to a project needs, which I was not against of by any means :)",
+		"subtopic": "Primary responsibilities:",
 		"responsibilities": [
 			"Developing and maintaining automation frameworks from scratch for both API and UI testing",
 			"Maintaining Gatling tests written in Scala",
