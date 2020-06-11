@@ -3,12 +3,12 @@
 		"workplace": "FDI Ukraine",
 		"date": "July 2019 - March 2020",
 		"position": "Test Automation Tech Lead",
-		"description": "",
+		"description": "I've join FDI company to test my skills in a product company (which was a new thing to me) and on a new position, which I was interested in",
 		"subtopic": "Key responsibilities:",
 		"responsibilities": [
 			"Managing team of test automation engineers",
 			"Developing and integrating test automation processes, approaches and base frameworks",
-			"Implementing key utilities, tools and various helpers to ease test automation for the rest of the team",
+			"Implementing key utilities, tools and various helpers to ease the test automation efforts for the rest of the team",
 			"Mentoring, code review",
 			"Developing automated tests"
 		]
@@ -16,8 +16,16 @@
 	{
 		"workplace": "Lohika Systems",
 		"date": "July 2017 - April 2019",
-		"position": "Senior Test Automation Engineer/Software developer",
-		"description": ""
+		"position": "Senior Test Automation Engineer/Java Backend Developer",
+		"description": "At the start of my career in Lohika company I was involved as Automation Engineer, but later I've switched to Java Backend Developer position in a response to a project needs, which I was not against of by any means :)",
+		"responsibilities": [
+			"Developing and maintaining automation frameworks from scratch for both API and UI testing",
+			"Maintaining Gatling tests written in Scala",
+			"Developing autotests with Java Stack: Java 8, Junit 4, Selenide, Rest Assured",
+			"Setting up the CI pipelines using Jenkins",
+			"Backend development with Java Stack: Java 8-9, Spring Boot, Spring MVC, Spring Data, Kafka, CouchDB, MongoDB, Apache POI, Apache PDFBox",
+			"Developing Unit and Integration level tests in order to fulfill TDD approach"
+		]
 	},
 	{
 		"mentoring": true,
@@ -40,7 +48,7 @@
 		"position": "Lecturer & Mentor",
 		"description": "",
 		"subtopic": "The following topics were covered during the course:",
-		"responsibilities": ["Tool for test automation", "Test automation frameworks", "Test automation techniques and patterns", "Build tools", "CI systems"]
+		"responsibilities": ["Tools for test automation", "Test automation frameworks", "Test automation techniques and patterns", "Build tools", "CI systems"]
 	},
 	{
 		"workplace": "Levi9",
@@ -51,8 +59,8 @@
 		"responsibilities": [
 			"Developing automation framework from scratch and it's improving",
 			"Developing autotests in BDD style using JS stack: Node.JS, ECMA6, Protractor, Cucumber.js",
-			"Participating in setting QA process",
-			"Setting CI pipeline for autotests and it’s supporting"
+			"Participating in setting up the QA processes",
+			"Setting the CI pipeline for autotests executing and it’s supporting"
 		]
 	},
 	{
