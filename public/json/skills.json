@@ -17,6 +17,23 @@
     ]
   },
   {
+    "skill": "Java frameworks",
+    "skillList": [
+      {
+        "name": "Spring Boot",
+        "stars": 5
+      },
+      {
+        "name": "Spring Data",
+        "stars": 4
+      },
+      {
+        "name": "Spring MVC",
+        "stars": 4
+      }
+    ]
+  },
+  {
     "skill": "Automated testing frameworks",
     "skillList": [
       {

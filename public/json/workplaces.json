@@ -2,44 +2,41 @@
 	{
 		"workplace": "GlobalLogic",
 		"date": "July 2020 - Present",
-		"position": "Test Automation Tech Lead",
-		"description": "After working for a little product company I decided to try out one of the biggest outsourcing company in Ukraine mostly because the recruting specialist said to me 'If you'll succeed being a techincal leader in a such big company as GlobalLogic, you'll succeed everywhere'. Technological stack: Java 8, Maven, Cucumber 6, TestNG, Selenium Webdriver, RestAssured, Report Portal, Azure Web ServicesAzure Web Apps",
+		"position": "Java Technical Leader",
+		"description": "After working for a little product company I decided to try out one of the biggest outsourcing company in Ukraine mostly because the recruting specialist said to me 'If you'll succeed being a techincal leader in a such big company as GlobalLogic, you'll succeed everywhere'. Technological stack: Java 8, Maven, Spring Boot, Junit, Azure Web Services",
 		"subtopic": "Key responsibilities:",
 		"responsibilities": [
-			"Organizing test automation efforts from the technical side",
-			"Leading the process of test automation framework developing and improving",
+			"Leading the development process",
 			"Presenting the team efforts to the stakeholders",
 			"Code review",
-			"Developing of automation tests"
+			"Development of key features"
 		]
 	},
 	{
 		"workplace": "FDI Ukraine",
 		"date": "July 2019 - March 2020",
-		"position": "Test Automation Tech Lead",
-		"description": "I decided to join FDI company to test my skills in a product company (which was a new thing to me), to try myself on a new position and to gain some new experience and a new perspective. Technological stack: Java 11, Maven, Junit 5, Selenide, RestAssured, Allure, Docker, TestContainers, MySql",
+		"position": "Java Tech Lead",
+		"description": "I decided to join FDI company to test my skills in a product company (which was a new thing to me), to try myself on a new position and to gain some new experience and a new perspective. Technological stack: Java 11, Maven, Junit 5, Spring Boot, Spring Data, Spring MVC, Docker, MySql",
 		"subtopic": "Key responsibilities:",
 		"responsibilities": [
-			"Managing team of test automation engineers",
-			"Developing and integrating test automation processes, approaches and base frameworks",
-			"Implementing key utilities, tools and various helpers to ease the test automation efforts for the rest of the team",
+			"Managing team of developers",
+			"Developing and integrating processes, approaches and best practives",
+			"Implementing key utilities, tools and various helpers to ease the development efforts for the rest of the team",
 			"Mentoring, code review",
-			"Developing automated tests"
+			"Developing key features"
 		]
 	},
 	{
 		"workplace": "Lohika Systems",
-		"date": "July 2017 - April 2019",
-		"position": "Senior Test Automation Engineer/Java Backend Developer",
-		"description": "At the start of my career in Lohika company I was involved as Automation Engineer, but later I've switched to Java Backend Developer position in a response to a project needs, which I was not against of by any means :)",
+		"date": "March 2017 - April 2019",
+		"position": "Java Backend Developer",
+		"description": "During the time in Lohika I was involved in a various projects from retail to cruise ships software, from java backend development to android development",
 		"subtopic": "Primary responsibilities:",
 		"responsibilities": [
-			"Developing and maintaining automation frameworks from scratch for both API and UI testing",
-			"Maintaining Gatling tests written in Scala",
-			"Developing autotests with Java Stack: Java 8, Junit 4, Selenide, Rest Assured",
-			"Setting up the CI pipelines using Jenkins",
 			"Backend development with Java Stack: Java 8-9, Spring Boot, Spring MVC, Spring Data, Kafka, CouchDB, MongoDB, Apache POI, Apache PDFBox",
-			"Developing Unit and Integration level tests in order to fulfill TDD approach"
+			"Developing unit and integration level tests in order to fulfill TDD approach",
+			"Participation in code review process",
+			"Android development with Java, Kotlin, RxJava, Jetpack, Room"
 		]
 	},
 	{
@@ -50,25 +47,9 @@
 		"description": "I worked as a lecturer in software engineering and quality assurance fields for more than 200 students in total, it was awesome, but exhausting :)"
 	},
 	{
-		"mentoring": true,
-		"workplace": "Epam Systems",
-		"date": "April 2017 - August 2017",
-		"position": "Test automation lecturer and mentor at Epam Resource Development Lab",
-		"description": "I worked for Epam Resource Development Lab located in Kyiv Polytechnic Institute as a lecturer of test automation course for a group of 20+ persons."
-	},
-	{
-		"mentoring": true,
-		"workplace": "SmartImprove.me",
-		"date": "February 2017 - April 2017",
-		"position": "Lecturer & Mentor",
-		"description": "",
-		"subtopic": "The following topics were covered during the course:",
-		"responsibilities": ["Tools for test automation", "Test automation frameworks", "Test automation techniques and patterns", "Build tools", "CI systems"]
-	},
-	{
 		"workplace": "Levi9",
 		"date": "August 2016 - March 2017",
-		"position": "Senior Test Automation Engineer",
+		"position": "Java Backend Developer/Frontend Developer",
 		"description": "I was working at Levi9 company as a consultant for Dutch company Backbase in RnD team which was responsible for developing newest features for Backbase banking application, improvements, PoC's, etc.",
 		"subtopic": "Responsibilities:",
 		"responsibilities": [
