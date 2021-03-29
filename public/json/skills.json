@@ -7,12 +7,12 @@
         "stars": 5
       },
       {
-        "name": "Javascript",
-        "stars": 3
+        "name": "С#",
+        "stars": 4
       },
       {
-        "name": "Python",
-        "stars": 2
+        "name": "Javascript",
+        "stars": 3
       }
     ]
   },
@@ -34,6 +34,10 @@
       {
         "name": "Protractor",
         "stars": 3
+      },
+      {
+        "name": "Coded Ui"
+        "stars": 4
       }
     ]
   },
@@ -63,23 +67,6 @@
     ]
   },
   {
-    "skill": "Software version control tools",
-    "skillList": [
-      {
-        "name": "Git",
-        "stars": 5
-      },
-      {
-        "name": "SVN",
-        "stars": 3
-      },
-      {
-        "name": "Mercurial",
-        "stars": 2
-      }
-    ]
-  },
-  {
     "skill": "CI Systems",
     "skillList": [
       {
@@ -89,6 +76,10 @@
       {
         "name": "Teamcity",
         "stars": 5
+      },
+      {
+        "name": "Azure Pipelines",
+        "stars": 4
       }
     ]
   },
