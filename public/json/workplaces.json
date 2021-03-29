@@ -1,16 +1,16 @@
 [
 	{
 		"workplace": "GlobalLogic",
-		"date": "July 2020 - Present",
+		"date": "May 2020 - Present",
 		"position": "Test Automation Tech Lead",
-		"description": "After working for a little product company I decided to try out one of the biggest outsourcing company in Ukraine mostly because the recruting specialist said to me 'If you'll succeed being a techincal leader in a such big company as GlobalLogic, you'll succeed everywhere'. Technological stack: Java 8, Maven, Cucumber 6, TestNG, Selenium Webdriver, RestAssured, Report Portal, Azure Web ServicesAzure Web Apps",
+		"description": "Technological stack: Java 8, Maven, Cucumber 6, TestNG, Selenium Webdriver, RestAssured, Report Portal, Azure Web ServicesAzure Web Apps",
 		"subtopic": "Key responsibilities:",
 		"responsibilities": [
-			"Organizing test automation efforts from the technical side",
-			"Leading the process of test automation framework developing and improving",
-			"Presenting the team efforts to the stakeholders",
+			"Participating in test strategy creation, planning and risks determination process",
+			"Leading a process of a test automation framework developing and improving",
+			"Presenting team efforts to stakeholders",
 			"Code review",
-			"Developing of automation tests"
+			"Developing of key features and automated tests"
 		]
 	},
 	{
