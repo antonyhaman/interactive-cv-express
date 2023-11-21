@@ -1,7 +1,6 @@
 const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
-const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const index = require('./routes/index');
@@ -9,14 +8,13 @@ const compression = require('compression');
 const minify = require('express-minify');
 
 const app = express();
-app.use(compression());
+app.use(compression({level: 6, threshold: 300}));
 app.use(minify());
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
 app.use(favicon(path.join(__dirname, 'public/images', 'favicon-96x96.png')));
-app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());

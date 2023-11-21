@@ -26,20 +26,25 @@ $(function () {
 $(function () {
     $('#scroll').find('a').on('click', function (e) {
         e.preventDefault();
-        $('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 400, 'linear');
+        document.getElementById("profile").scrollIntoView()
     });
 });
 
 $(function () {
-    $(document).ready(function () {
-        $.getJSON("/getCareersData", function (response) {
-            renderCareers(response);
-        });
-        $.getJSON("/getSkillsData", function (response) {
-            renderSkills(response);
-        })
-    });
+        doGetRequest("/getCareersData", renderCareers);
+        doGetRequest("/getSkillsData", renderSkills);
 });
+
+
+function doGetRequest(path, callback) {
+    var request = new XMLHttpRequest();
+    request.open('GET', path, true);
+
+    request.onload = function() {
+        callback(JSON.parse(request.responseText));
+    }
+    request.send();
+}
 
 function renderSkills(response) {
     let skills = [];
@@ -141,14 +146,14 @@ function renderCareers(response) {
         e.preventDefault();
         if (isHidden) {
             isHidden = false;
-            jobsToHide.forEach((e) => e.slideDown());
+            jobsToHide.forEach((e) => slideDown(e[0]));
             renderShowMoreBlock(isHidden);
         }
         else {
             isHidden = true;
-            jobsToHide.forEach((e) => e.slideUp());
+            jobsToHide.forEach((e) => slideUp(e[0]));
             renderShowMoreBlock(isHidden);
-            $('html, body').animate({scrollTop: $('#careers').find('h1').offset().top}, 500);
+            document.getElementById("careers").scrollIntoView()
         }
     });
 }
@@ -172,3 +177,59 @@ function renderShowMoreBlock(isHidden) {
         paragraph.text("Show less");
     }
 }
+
+let slideUp = (target, duration=500) => {
+        target.style.transitionProperty = 'height, margin, padding';
+        target.style.transitionDuration = duration + 'ms';
+        target.style.boxSizing = 'border-box';
+        target.style.height = target.offsetHeight + 'px';
+        target.offsetHeight;
+        target.style.overflow = 'hidden';
+        target.style.height = 0;
+        target.style.paddingTop = 0;
+        target.style.paddingBottom = 0;
+        target.style.marginTop = 0;
+        target.style.marginBottom = 0;
+        window.setTimeout( () => {
+              target.style.display = 'none';
+              target.style.removeProperty('height');
+              target.style.removeProperty('padding-top');
+              target.style.removeProperty('padding-bottom');
+              target.style.removeProperty('margin-top');
+              target.style.removeProperty('margin-bottom');
+              target.style.removeProperty('overflow');
+              target.style.removeProperty('transition-duration');
+              target.style.removeProperty('transition-property');
+              //alert("!");
+        }, duration);
+    }
+
+    /* SLIDE DOWN */
+let slideDown = (target, duration=500) => {
+        target.style.removeProperty('display');
+        let display = window.getComputedStyle(target).display;
+        if (display === 'none') display = 'block';
+        target.style.display = display;
+        let height = target.offsetHeight;
+        target.style.overflow = 'hidden';
+        target.style.height = 0;
+        target.style.paddingTop = 0;
+        target.style.paddingBottom = 0;
+        target.style.marginTop = 0;
+        target.style.marginBottom = 0;
+        target.offsetHeight;
+        target.style.boxSizing = 'border-box';
+        target.style.transitionProperty = "height, margin, padding";
+        target.style.transitionDuration = duration + 'ms';
+        target.style.height = height + 'px';
+        target.style.removeProperty('padding-top');
+        target.style.removeProperty('padding-bottom');
+        target.style.removeProperty('margin-top');
+        target.style.removeProperty('margin-bottom');
+        window.setTimeout( () => {
+          target.style.removeProperty('height');
+          target.style.removeProperty('overflow');
+          target.style.removeProperty('transition-duration');
+          target.style.removeProperty('transition-property');
+        }, duration);
+    }
