@@ -6,13 +6,11 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const index = require('./routes/index');
 const compression = require('compression');
-const cssMinify = require('express-minify');
+const minify = require('express-minify');
 
 const app = express();
-app.use(compression({level: 6, threshold: 300}));
-app.use(cssMinify({
-    cache: __dirname + '/public/cache',
-}));
+app.use(compression());
+app.use(minify());
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
