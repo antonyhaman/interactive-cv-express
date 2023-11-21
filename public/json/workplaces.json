@@ -2,27 +2,28 @@
 	{
 		"workplace": "GlobalLogic",
 		"date": "May 2020 - Present",
-		"position": "Test Automation Tech Lead",
-		"description": "Technological stack: Java 8, Maven, Cucumber 6, TestNG, Selenium Webdriver, RestAssured, Report Portal, Azure Web Apps, C#, CodedUi, EntityFramework",
+		"position": "Test Automation Team Lead",
+		"description": "Technological stack: Java 8, Maven, Cucumber 6, TestNG, Selenium Webdriver, RestAssured, Appium, Report Portal, Azure Web Apps, C#, CodedUi, EntityFramework",
 		"subtopic": "Key responsibilities:",
 		"responsibilities": [
+			"QA team management",
+			"Leading the process of a test automation framework developing and improving",
 			"Participating in test strategy creation, planning and risks determination process",
-			"Leading a process of a test automation framework developing and improving",
+			"Development of key features and automated tests",
 			"Presenting team efforts to stakeholders",
-			"Code review",
-			"Developing of key features and automated tests"
+			"Interviewing of newcomers, team mentoring and code review"
 		]
 	},
 	{
 		"workplace": "FDI Ukraine",
 		"date": "July 2019 - March 2020",
 		"position": "Test Automation Tech Lead",
-		"description": "I decided to join FDI company to test my skills in a product company (which was a new thing to me), to try myself on a new position and to gain some new experience and a new perspective. Technological stack: Java 11, Maven, Junit 5, Selenide, RestAssured, Allure, Docker, TestContainers, MySql",
+		"description": "I decided to join FDI to test my skills in a product company, try myself in a new position and gain new experience and perspective. Technological stack was: Java 11, Maven, Junit 5, Selenide, RestAssured, Allure, Docker, TestContainers, MySql",
 		"subtopic": "Key responsibilities:",
 		"responsibilities": [
-			"Managing team of test automation engineers",
-			"Developing and integrating test automation processes, approaches and base frameworks",
-			"Implementing key utilities, tools and various helpers to ease the test automation efforts for the rest of the team",
+			"Management of a team of test automation engineers",
+			"Development and integration of test automation processes, approaches, tools and frameworks",
+			"Implementing key utilities, tools and various helpers to facilitate test automation for the rest of the team",
 			"Mentoring, code review",
 			"Developing automated tests"
 		]
@@ -34,7 +35,7 @@
 		"description": "At the start of my career in Lohika company I was involved as Automation Engineer, but later I've switched to Java Backend Developer position in a response to a project needs, which I was not against of by any means :)",
 		"subtopic": "Primary responsibilities:",
 		"responsibilities": [
-			"Developing and maintaining automation frameworks from scratch for both API and UI testing",
+			"Developing and maintaining test automation frameworks from scratch for both API and UI testing",
 			"Maintaining Gatling tests written in Scala",
 			"Developing autotests with Java Stack: Java 8, Junit 4, Selenide, Rest Assured",
 			"Setting up the CI pipelines using Jenkins",

@@ -13,11 +13,28 @@
       {
         "name": "Javascript",
         "stars": 3
+      },
+      {
+        "name": "Kotlin",
+        "stars": 2
       }
     ]
   },
   {
-    "skill": "Automated testing frameworks",
+    "skill": "Java build systems",
+    "skillList": [
+      {
+        "name": "Maven",
+        "stars": 5
+      },
+      {
+        "name": "Gradle",
+        "stars": 3
+      }
+    ]
+  },
+  {
+    "skill": "Web UI testing frameworks",
     "skillList": [
       {
         "name": "Selenium Webdriver",
@@ -37,7 +54,7 @@
       },
       {
         "name": "Coded Ui",
-        "stars": 4
+        "stars": 5
       }
     ]
   },
@@ -45,7 +62,7 @@
     "skill": "Unit testing frameworks",
     "skillList": [
       {
-        "name": "JUnit 5",
+        "name": "JUnit",
         "stars": 5
       },
       {
@@ -54,6 +71,10 @@
       },
       {
         "name": "JBehave",
+        "stars": 4
+      },
+      {
+        "name": "Cucumber",
         "stars": 4
       },
       {
@@ -84,14 +105,14 @@
     ]
   },
   {
-    "skill": "Build systems",
+    "skill": "Load/performance testing",
     "skillList": [
       {
-        "name": "Maven",
-        "stars": 5
+        "name": "jMeter",
+        "stars": 2
       },
       {
-        "name": "Gradle",
+        "name": "Gatling",
         "stars": 2
       }
     ]
