@@ -2,14 +2,15 @@
 	{
 		"workplace": "GlobalLogic",
 		"date": "May 2020 - Present",
-		"position": "Test Automation Team Lead",
-		"description": "Technological stack: Java 8, Maven, Cucumber 6, TestNG, Selenium Webdriver, RestAssured, Appium, Report Portal, Azure Web Apps, C#, CodedUi, EntityFramework",
+		"position": "Senoir Test Automation Engineer/Team Lead",
+		"description": "Technological stack: Java, C#, Javascript, Cucumber, Selenium Webdriver, RestAssured, Appium, CodedUi, Azure",
 		"subtopic": "Key responsibilities:",
 		"responsibilities": [
 			"QA team management",
 			"Leading the process of a test automation framework developing and improving",
 			"Participating in test strategy creation, planning and risks determination process",
-			"Development of key features and automated tests",
+			"Developing of UI, API, mobile and desktop automated tests",
+			"Development of key features, tools, integrations, etc",
 			"Presenting team efforts to stakeholders",
 			"Interviewing of newcomers, team mentoring and code review"
 		]
