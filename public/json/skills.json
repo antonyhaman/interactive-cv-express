@@ -108,7 +108,7 @@
     "skill": "Load/performance testing",
     "skillList": [
       {
-        "name": "Grafana k6"
+        "name": "Grafana k6",
         "stars": 4
       },
       {
