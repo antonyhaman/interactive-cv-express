@@ -13,10 +13,6 @@
       {
         "name": "Javascript",
         "stars": 3
-      },
-      {
-        "name": "Kotlin",
-        "stars": 2
       }
     ]
   },
@@ -34,7 +30,7 @@
     ]
   },
   {
-    "skill": "Web UI testing frameworks",
+    "skill": "Automated testing frameworks",
     "skillList": [
       {
         "name": "Selenium Webdriver",
@@ -43,6 +39,10 @@
       {
         "name": "Selenide",
         "stars": 5
+      },
+      {
+        "name": "Appium",
+        "stars": 3
       },
       {
         "name": "Webdriver.IO",
@@ -108,11 +108,11 @@
     "skill": "Load/performance testing",
     "skillList": [
       {
-        "name": "jMeter",
-        "stars": 2
+        "name": "Grafana k6"
+        "stars": 4
       },
       {
-        "name": "Gatling",
+        "name": "jMeter",
         "stars": 2
       }
     ]
