@@ -2,6 +2,9 @@
   "name": "interactive-cv-express",
   "version": "1.0.3",
   "private": true,
+  "engines": {
+    "node": ">=16"
+  },
   "scripts": {
     "start": "node ./bin/www"
   },
