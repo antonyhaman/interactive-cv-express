@@ -1,112 +1,119 @@
 [
 	{
-		"workplace": "GlobalLogic",
-		"date": "May 2020 - Present",
-		"position": "Senoir Test Automation Engineer/Team Lead",
-		"description": "Technological stack: Java, C#, Javascript, Cucumber, Selenium Webdriver, RestAssured, Appium, CodedUi, K6, Azure",
-		"subtopic": "Key responsibilities:",
-		"responsibilities": [
-			"QA team management",
-			"Leading the process of a test automation framework developing and improving",
-			"Participating in test strategy creation, planning and risks determination process",
-			"Developing of web UI, API, mobile and desktop automated tests",
-			"Performance testing using Grafana K6 and Javascript",
-			"Development of key features, tools, integrations, etc",
-			"Presenting team efforts to stakeholders",
-			"Interviewing of newcomers, team mentoring and performing code review"
-		]
+	  "workplace": "GlobalLogic",
+	  "date": "May 2020 - Present",
+	  "position": "Team/Tech Automation Team Lead",
+	  "description": "At GlobalLogic, I have worked (and still do) on several projects, most of which are in the medical and e-commerce domains. Technology stack: Java, C#, JavaScript, Groovy, Cucumber, Junit, TestNg, Spock, Selenium WebDriver, RestAssured, Appium, CodedUI, K6, Azure.",
+	  "subtopic": "Key responsibilities:",
+	  "responsibilities": [
+		"Managing the QA team",
+		"Leading the development and improvement of the test automation framework",
+		"Participating in test strategy creation, planning, and risk assessment",
+		"Developing automated tests for web UI, API, mobile, and desktop platforms",
+		"Conducting performance testing using Grafana K6 and JavaScript",
+		"Developing key features, tools, integrations, etc.",
+		"Presenting team achievements to stakeholders",
+		"Interviewing newcomers, mentoring the team, and performing code reviews"
+	  ]
 	},
 	{
-		"workplace": "FDI Ukraine",
-		"date": "July 2019 - March 2020",
-		"position": "Test Automation Tech Lead",
-		"description": "I decided to join FDI to test my skills in a product company, try myself in a new position and gain new experience and perspective. Technological stack was: Java 11, Maven, Junit 5, Selenide, RestAssured, Allure, Docker, TestContainers, MySql",
-		"subtopic": "Key responsibilities:",
-		"responsibilities": [
-			"Management of a team of test automation engineers",
-			"Development and integration of test automation processes, approaches, tools and frameworks",
-			"Implementing key utilities, tools and various helpers to facilitate test automation for the rest of the team",
-			"Mentoring, code review",
-			"Developing automated tests"
-		]
+	  "workplace": "FDI Ukraine",
+	  "date": "July 2019 - March 2020",
+	  "position": "Test Automation Tech Lead",
+	  "description": "FDI Ukraine was a product company that was developing a set of services and application under the umbrella name 'Kyiv Smart City'. Technology stack: Java 11, Maven, JUnit 5, Selenide, RestAssured, Allure, Docker, TestContainers, MySQL.",
+	  "subtopic": "Key responsibilities:",
+	  "responsibilities": [
+		"Leading a team of test automation engineers",
+		"Developing and integrating test automation processes, approaches, tools, and frameworks",
+		"Creating key utilities, tools, and various helpers to support the team",
+		"Mentoring and conducting code reviews",
+		"Developing automated tests"
+	  ]
 	},
 	{
-		"workplace": "Lohika Systems",
-		"date": "July 2017 - April 2019",
-		"position": "Senior Test Automation Engineer/Java Backend Developer",
-		"description": "At the start of my career in Lohika company I was involved as Automation Engineer, but later I've switched to Java Backend Developer position in a response to a project needs, which I was not against of by any means :)",
-		"subtopic": "Primary responsibilities:",
-		"responsibilities": [
-			"Developing and maintaining test automation frameworks from scratch for both API and UI testing",
-			"Maintaining Gatling tests written in Scala",
-			"Developing autotests with Java Stack: Java 8, Junit 4, Selenide, Rest Assured",
-			"Setting up the CI pipelines using Jenkins",
-			"Backend development with Java Stack: Java 8-9, Spring Boot, Spring MVC, Spring Data, Kafka, CouchDB, MongoDB, Apache POI, Apache PDFBox",
-			"Developing Unit and Integration level tests in order to fulfill TDD approach"
-		]
+	  "workplace": "Lohika Systems",
+	  "date": "July 2017 - April 2019",
+	  "position": "Senior Test Automation Engineer / Java Backend Developer",
+	  "description": "I started at Lohika as an Automation Engineer, later transitioning to a Java Backend Developer role to meet project needs — which I gladly embraced.",
+	  "subtopic": "Primary responsibilities:",
+	  "responsibilities": [
+		"Developing and maintaining test automation frameworks from scratch for both API and UI testing",
+		"Maintaining Gatling performance tests written in Scala",
+		"Developing automated tests using Java stack: Java 8, JUnit 4, Selenide, RestAssured",
+		"Setting up CI pipelines using Jenkins",
+		"Backend development using Java stack: Java 8–9, Spring Boot, Spring MVC, Spring Data, Kafka, CouchDB, MongoDB, Apache POI, Apache PDFBox",
+		"Writing unit and integration tests to support TDD practices"
+	  ]
 	},
 	{
-		"mentoring": true,
-		"workplace": "State University of Telecommunications",
-		"date": "September 2017 - June 2018",
-		"position": "University Lecturer",
-		"description": "I worked as a lecturer in software engineering and quality assurance fields for more than 200 students in total, it was awesome, but exhausting :)"
+	  "mentoring": true,
+	  "workplace": "State University of Telecommunications",
+	  "date": "September 2017 - June 2018",
+	  "position": "University Lecturer",
+	  "description": "I lectured on software engineering and quality assurance for over 200 students in total. It was a rewarding, yet exhausting experience."
 	},
 	{
-		"mentoring": true,
-		"workplace": "Epam Systems",
-		"date": "April 2017 - August 2017",
-		"position": "Test automation lecturer and mentor at Epam Resource Development Lab",
-		"description": "I worked for Epam Resource Development Lab located in Kyiv Polytechnic Institute as a lecturer of test automation course for a group of 20+ persons."
+	  "mentoring": true,
+	  "workplace": "Epam Systems",
+	  "date": "April 2017 - August 2017",
+	  "position": "Test Automation Lecturer and Mentor at EPAM Resource Development Lab",
+	  "description": "I worked at the EPAM Resource Development Lab, located in Kyiv Polytechnic Institute, as a lecturer for a test automation course for a group of 20+ students."
 	},
 	{
-		"mentoring": true,
-		"workplace": "SmartImprove.me",
-		"date": "February 2017 - April 2017",
-		"position": "Lecturer & Mentor",
-		"description": "",
-		"subtopic": "The following topics were covered during the course:",
-		"responsibilities": ["Tools for test automation", "Test automation frameworks", "Test automation techniques and patterns", "Build tools", "CI systems"]
+	  "mentoring": true,
+	  "workplace": "SmartImprove.me",
+	  "date": "February 2017 - April 2017",
+	  "position": "Lecturer & Mentor",
+	  "description": "",
+	  "subtopic": "The following topics were covered during the course:",
+	  "responsibilities": [
+		"Tools for test automation",
+		"Test automation frameworks",
+		"Test automation techniques and patterns",
+		"Build tools",
+		"CI systems"
+	  ]
 	},
 	{
-		"workplace": "Levi9",
-		"date": "August 2016 - July 2017",
-		"position": "Senior Test Automation Engineer",
-		"description": "I worked at Levi9 as a consultant for Dutch company in RnD team which was responsible for developing newest features for banking application, improvements, PoC's, etc.",
-		"subtopic": "Responsibilities:",
-		"responsibilities": [
-			"Developing automation framework from scratch and it's improving",
-			"Developing autotests in BDD style using JS stack: Node.JS, ECMA6, Protractor, Cucumber.js",
-			"Participating in setting up the QA processes",
-			"Setting the CI pipeline for autotests executing and it’s supporting"
-		]
+	  "workplace": "Levi9",
+	  "date": "August 2016 - July 2017",
+	  "position": "Senior Test Automation Engineer",
+	  "description": "I worked at Levi9 as a consultant for a Dutch company in an R&D team responsible for developing new features for a banking application, including improvements and PoCs.",
+	  "subtopic": "Responsibilities:",
+	  "responsibilities": [
+		"Developing the automation framework from scratch and enhancing it",
+		"Writing BDD-style automated tests using JavaScript stack: Node.js, ECMAScript 6, Protractor, Cucumber.js",
+		"Participating in the setup of QA processes",
+		"Setting up and maintaining CI pipelines for test execution"
+	  ]
 	},
 	{
-		"workplace": "EPAM Systems",
-		"date": "September 2015 - August 2016",
-		"position": "Test Automation Engineer",
-		"description": "I was involved as a test automation engineer into big e-commerce project for the biggest retail company in Canada along with huge, distributed and multilingual team.",
-		"subtopic": "Responsibilities:",
-		"responsibilities": [
-			"Developing and support of BDD autotests using Java stack: Selenium Webdriver, Maven, Serenity, JBehave both for front-end and back-end",
-			"Work with issues in order to cover requirements from customers, improving TAF (Test Automation Framework), analyzing and solving problems with high level of complexity",
-			"CI system configuring",
-			"Took part in execution of code review process",
-			"Mentoring and lecturing students at Epam RD (resource development) lab"
-		]
+	  "workplace": "EPAM Systems",
+	  "date": "September 2015 - August 2016",
+	  "position": "Middle Test Automation Engineer",
+	  "description": "I worked as a test automation engineer on a large-scale e-commerce project for the biggest retail company in Canada, collaborating with a large, distributed, multilingual team.",
+	  "subtopic": "Responsibilities:",
+	  "responsibilities": [
+		"Developing and maintaining BDD-style automated tests using Java stack: Selenium WebDriver, Maven, Serenity, JBehave for both front-end and back-end",
+		"Handling issues and aligning test coverage with customer requirements, improving the test automation framework, and solving complex problems",
+		"Configuring CI systems",
+		"Participating in code reviews",
+		"Mentoring and lecturing students at the EPAM Resource Development Lab"
+	  ]
 	},
 	{
-		"workplace": "Softengi - Inspired Software Engineering",
-		"date": "June 2014 - September 2015",
-		"position": "Manual/Automation QA Engineer",
-		"description": "I worked as a Manual/Automation QA Engineer on ERP project for American company, it was old and huge application, just imagine - our automated regression test suite took about 16 hours to execute (in single thread).",
-		"subtopic": "Responsibilities:",
-		"responsibilities": [
-			"Developing and supporting of automated tests using Java and C# stacks (Selenium Webdriver and Telerik Test Studio respectively)",
-			"Manual testing: functional, GUI, smoke, acceptance, regression, cross-browser, cross-platform",
-			"CI system configuring",
-			"Bug tracking and reporting",
-			"Work with Jira, SpiraTest, Confluence"
-		]
+	  "workplace": "Softengi - Inspired Software Engineering",
+	  "date": "June 2014 - September 2015",
+	  "position": "Manual/Automation QA Engineer",
+	  "description": "I worked on an ERP project for an American company. The application was large and legacy — our automated regression test suite (aroung 500 tests) took about 16 hours to run in a single thread.",
+	  "subtopic": "Responsibilities:",
+	  "responsibilities": [
+		"Developing and maintaining automated tests using Java and C# stacks (Selenium WebDriver and Telerik Test Studio respectively)",
+		"Manual testing: functional, GUI, smoke, acceptance, regression, cross-browser, and cross-platform testing",
+		"Configuring CI systems",
+		"Bug tracking and reporting",
+		"Working with Jira, SpiraTest, and Confluence"
+	  ]
 	}
-]
+  ]
+  
