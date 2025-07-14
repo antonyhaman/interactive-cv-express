@@ -13,6 +13,18 @@
       {
         "name": "Javascript",
         "stars": 3
+      },
+      {
+        "name": "TypeScript",
+        "stars": 2
+      },
+      {
+        "name": "Groovy",
+        "stars": 5
+      },
+      {
+        "name": "Python",
+        "stars": 2
       }
     ]
   },
@@ -42,7 +54,7 @@
       },
       {
         "name": "Appium",
-        "stars": 3
+        "stars": 5
       },
       {
         "name": "Webdriver.IO",
@@ -59,8 +71,12 @@
     ]
   },
   {
-    "skill": "Unit testing frameworks",
+    "skill": "Unit and acceptance testing frameworks",
     "skillList": [
+      {
+        "name": "Spock",
+        "start": 5
+      },
       {
         "name": "JUnit",
         "stars": 5
@@ -80,10 +96,6 @@
       {
         "name": "Jasmine",
         "stars": 3
-      },
-      {
-        "name": "CucumberJS",
-        "stars": 2
       }
     ]
   },

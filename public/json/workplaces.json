@@ -1,33 +1,37 @@
 [
 	{
-	  "workplace": "GlobalLogic",
+	  "workplace": "Globallogic",
 	  "date": "May 2020 - Present",
-	  "position": "Team/Tech Automation Team Lead",
-	  "description": "At GlobalLogic, I have worked (and still do) on several projects, most of which are in the medical and e-commerce domains. Technology stack: Java, C#, JavaScript, Groovy, Cucumber, Junit, TestNg, Spock, Selenium WebDriver, RestAssured, Appium, CodedUI, K6, Azure.",
+	  "position": "SDET/Automation Lead",
+	  "description": "At Globallogic, I work on diverse projects in the medical and e-commerce sectors, in SDET and Lead roles, leading and collaborating with teams of up to 8 test automation engineers. I design and maintain robust automation frameworks for web UI, API, desktop, and performance testing, using Java, Groovy, C#, and JavaScript. My focus is on ensuring strategic test coverage, applying the test pyramid approach across the SDLC, and continuously improving processes to deliver high-quality results. Technology stack: Java, C#, JavaScript, Groovy, Cucumber, Junit, TestNg, Spock, Selenium WebDriver, Selenide, RestAssured, Appium, CodedUI, K6, Azure.",
 	  "subtopic": "Key responsibilities:",
 	  "responsibilities": [
-		"Managing the QA team",
-		"Leading the development and improvement of the test automation framework",
-		"Participating in test strategy creation, planning, and risk assessment",
-		"Developing automated tests for web UI, API, mobile, and desktop platforms",
-		"Developing performance tests using Grafana K6 and JavaScript",
-		"Developing key features, tools, integrations, etc.",
-		"Presenting team achievements to stakeholders",
-		"Interviewing newcomers, mentoring the team, and performing code reviews"
+		"Managing and coordinating the QA team’s activities and priorities",
+		"Leading the design, development, and continuous improvement of test automation frameworks",
+		"Defining and implementing balanced test strategies (unit, integration, E2E) across the SDLC to ensure effective coverage and maintain rapid, reliable delivery",
+		"Developing and maintaining automated tests for web UI, API, mobile, and desktop applications",
+		"Designing and executing performance and load tests using Grafana k6 and JavaScript",
+		"Building custom tools, utilities, and integrations to support efficient test automation and reporting",
+		"Monitoring test results, analyzing failures, and driving defect resolution in collaboration with developers and stakeholders",
+		"Presenting team progress, test results, and key achievements to stakeholders and leadership",
+		"Interviewing, onboarding, and mentoring new team members, conducting code reviews, and promoting best practices within the team",
+		"Continuously assessing and improving QA processes, tools, and metrics to align with project and business goals\n"
 	  ]
 	},
 	{
 	  "workplace": "FDI Ukraine",
 	  "date": "July 2019 - March 2020",
 	  "position": "Test Automation Tech Lead",
-	  "description": "FDI Ukraine was a product company that was developing a set of services and application under the umbrella name 'Kyiv Smart City'. Technology stack: Java 11, Maven, JUnit 5, Selenide, RestAssured, Allure, Docker, TestContainers, MySQL.",
+	  "description": "FDI Ukraine was a product company delivering a suite of services and applications under the Kyiv Smart City initiative. The solutions aimed to improve city infrastructure and services for residents and authorities.\nTechnology stack: Java 11, Maven, JUnit 5, Selenide, RestAssured, Allure, Docker, TestContainers, MySQL.",
 	  "subtopic": "Key responsibilities:",
 	  "responsibilities": [
-		"Leading a team of test automation engineers",
-		"Developing and integrating test automation processes, approaches, tools, and frameworks",
-		"Creating key utilities, tools, and various helpers to support the team",
-		"Mentoring and conducting code reviews",
-		"Developing automated tests"
+		"Led a team of test automation engineers, driving quality initiatives across multiple projects within the Kyiv Smart City program",
+		"Designed, developed, and integrated robust test automation processes, frameworks, and tools to ensure scalable, maintainable test coverage",
+		"Created key utilities, custom tools, and reusable helpers to accelerate development and testing workflows",
+		"Mentored team members through knowledge sharing, pair programming, and comprehensive code reviews to uphold high code standards",
+		"Developed automated tests for web UI and API layers using Selenide, RestAssured, and other modern frameworks",
+		"Set up and maintained test environments using Docker and TestContainers for reliable and repeatable test execution",
+		"Collaborated with cross-functional teams to align test strategies with development goals and delivery timelines."
 	  ]
 	},
 	{
@@ -78,42 +82,19 @@
 	  "workplace": "Levi9",
 	  "date": "August 2016 - July 2017",
 	  "position": "Senior Test Automation Engineer",
-	  "description": "I worked at Levi9 as a consultant for a Dutch company in an R&D team responsible for developing new features for a banking application, including improvements and PoCs.",
-	  "subtopic": "Responsibilities:",
-	  "responsibilities": [
-		"Developing the automation framework from scratch and enhancing it",
-		"Writing BDD-style automated tests using JavaScript stack: Node.js, ECMAScript 6, Protractor, Cucumber.js",
-		"Participating in the setup of QA processes",
-		"Setting up and maintaining CI pipelines for test execution"
-	  ]
+	  "description": "I worked at Levi9 as a consultant for a Dutch company in an R&D team responsible for developing new features for a banking application, including improvements and PoCs."
 	},
 	{
 	  "workplace": "EPAM Systems",
 	  "date": "September 2015 - August 2016",
 	  "position": "Middle Test Automation Engineer",
-	  "description": "I worked as a test automation engineer on a large-scale e-commerce project for the biggest retail company in Canada, collaborating with a large, distributed, multilingual team.",
-	  "subtopic": "Responsibilities:",
-	  "responsibilities": [
-		"Developing and maintaining BDD-style automated tests using Java stack: Selenium WebDriver, Maven, Serenity, JBehave for both front-end and back-end",
-		"Handling issues and aligning test coverage with customer requirements, improving the test automation framework, and solving complex problems",
-		"Configuring CI systems",
-		"Participating in code reviews",
-		"Mentoring and lecturing students at the EPAM Resource Development Lab"
-	  ]
+	  "description": "I worked as a test automation engineer on a large-scale e-commerce project for the biggest retail company in Canada, collaborating with a large, distributed, multilingual team."
 	},
 	{
 	  "workplace": "Softengi - Inspired Software Engineering",
 	  "date": "June 2014 - September 2015",
 	  "position": "Manual/Automation QA Engineer",
-	  "description": "I worked on an ERP project for an American company. The application was large and legacy — our automated regression test suite (aroung 500 tests) took about 16 hours to run in a single thread.",
-	  "subtopic": "Responsibilities:",
-	  "responsibilities": [
-		"Developing and maintaining automated tests using Java and C# stacks (Selenium WebDriver and Telerik Test Studio respectively)",
-		"Manual testing: functional, GUI, smoke, acceptance, regression, cross-browser, and cross-platform testing",
-		"Configuring CI systems",
-		"Bug tracking and reporting",
-		"Working with Jira, SpiraTest, and Confluence"
-	  ]
+	  "description": "I worked on an ERP project for an American company. The application was large and legacy — our automated regression test suite (aroung 500 tests) took about 16 hours to run in a single thread."
 	}
   ]
   
