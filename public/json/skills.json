@@ -7,6 +7,10 @@
         "stars": 5
       },
       {
+        "name": "Groovy",
+        "stars": 5
+      },
+      {
         "name": "С#",
         "stars": 4
       },
@@ -16,15 +20,7 @@
       },
       {
         "name": "TypeScript",
-        "stars": 2
-      },
-      {
-        "name": "Groovy",
-        "stars": 5
-      },
-      {
-        "name": "Python",
-        "stars": 2
+        "stars": 3
       }
     ]
   },
@@ -57,16 +53,12 @@
         "stars": 5
       },
       {
-        "name": "Webdriver.IO",
-        "stars": 3
-      },
-      {
-        "name": "Protractor",
-        "stars": 3
-      },
-      {
-        "name": "Coded Ui",
+        "name": "Rest Assured",
         "stars": 5
+      },
+      {
+        "name": "Playwright",
+        "stars": 4
       }
     ]
   },
@@ -75,7 +67,7 @@
     "skillList": [
       {
         "name": "Spock",
-        "start": 5
+        "stars": 4
       },
       {
         "name": "JUnit",

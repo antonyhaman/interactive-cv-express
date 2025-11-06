@@ -301,7 +301,6 @@ footer {
 
 #contacts div {
     color: white;
-    display: inline-block;
 }
 
 #contacts div:hover, #contacts div:active {

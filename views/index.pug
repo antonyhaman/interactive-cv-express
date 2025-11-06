@@ -3,6 +3,21 @@ html(lang='en')
     head
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(name='description', content='Anton Haman - Interactive CV showcasing skills, experience and projects')
+        meta(name='keywords', content='Anton Haman, CV, Resume, SDET, Test Automation, Software Developer in Test, QA Engineer, Quality Assurance, Automation Frameworks, Selenium, Appium, API Testing')
+        meta(name='author', content='Anton Haman')
+        
+        // Open Graph / Facebook
+        meta(property='og:type', content='website')
+        meta(property='og:title', content='Anton Haman - Interactive CV')
+        meta(property='og:description', content='Interactive CV showcasing skills, experience and projects')
+        meta(property='og:url', content='https://anton-haman-cv.onrender.com/')
+        
+        // Twitter
+        meta(property='twitter:card', content='summary')
+        meta(property='twitter:title', content='Anton Haman - Interactive CV')
+        meta(property='twitter:description', content='Interactive CV showcasing skills, experience and projects')
+        
         title Anton Haman's Interactive CV
         link(href='https://fonts.googleapis.com/css?family=Poppins:300,600,700', rel='stylesheet')
         link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', crossorigin='anonymous')
@@ -29,16 +44,16 @@ html(lang='en')
                 h1 Profile
                 p#title.lead.text-center Senior Software Developer In Test
                 hr
-                .col-sm-4.col-xs-12
+                .col-sm-4.col-xs-6
                     h2 About me
                     span
                         |   Hello, I'm Anton — a test automation engineer with over 10 years of practical experience in quality assurance, covering web, mobile, API, and desktop applications. I specialize in building robust and scalable test automation frameworks from scratch, as well as optimizing and maintaining existing ones. I also bring experience leading QA teams and collaborating within cross-functional agile environments.
                         br
                         br
                         |   This interactive CV was built with Express.js and Pug.js — not just to showcase my experience, but also to demonstrate that my skills extend beyond testing into backend development, tooling, and UI design. You can explore the source code on my <a href="https://github.com/antonyhaman/interactive-cv-express">Github</a>.
-                .col-sm-4.col-xs-6.no-print
+                .col-sm-4.col-xs-6
                     p.text-center
-                        img.img-circle(src='/images/myphoto.jpg', alt='Photo of Anton Haman')
+                        img.no-print.img-circle(src='/images/myphoto.jpg', alt='Photo of Anton Haman')
                 #details.col-sm-4.col-xs-6
                     h2 Details
                     strong Name:
@@ -65,25 +80,25 @@ html(lang='en')
                 .row
                     h1.text-center Contacts
                     hr
-                    .col-md-4.col-sm-6.col-xs-12
+                    .col-md-4.col-sm-4.col-xs-12
                         a(href='https://cutt.ly/qyjQUBI', target='_blank')
                             div
                                 i.fab.fa-linkedin.fa-2x(aria-hidden='true')
                                 p linkedin.com/in/anton-haman
-                    .col-md-4.col-sm-12.col-xs-12
+                    .col-md-4.col-sm-4.col-xs-12
                         a(href='https://github.com/antonyhaman', target='_blank')
                             div
                                 i.fab.fa-github-square.fa-2x(aria-hidden='true')
                                 p github.com/antonyhaman
-                    .col-md-4.col-sm-6.col-xs-12
+                    .col-md-4.col-sm-4.col-xs-12
                         a(href='mailto:anton.haman.92@gmail.com', target='_blank')
                             div
                                 i.fas.fa-envelope-square.fa-2x(aria-hidden='true')
                                 p anton.haman.92@gmail.com
-                    .col-md-4.col-sm-12.col-xs-12
-                        a(href='https://www.facebook.com/anton.haman', target='_blank')
-                            div
-                                i.fab.fa-facebook-square.fa-2x(aria-hidden='true')
-                                p facebook.com/anton.haman            
+                    //- .col-md-4.col-sm-12.col-xs-12
+                    //-     a(href='https://www.facebook.com/anton.haman', target='_blank')
+                    //-         div
+                    //-             i.fab.fa-facebook-square.fa-2x(aria-hidden='true')
+                    //-             p facebook.com/anton.haman            
 
 

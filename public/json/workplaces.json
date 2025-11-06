@@ -3,7 +3,7 @@
 	  "workplace": "Globallogic",
 	  "date": "May 2020 - Present",
 	  "position": "SDET/Automation Lead",
-	  "description": "At Globallogic, I work on diverse projects in the medical and e-commerce sectors, in SDET and Lead roles, leading and collaborating with teams of up to 8 test automation engineers. I design and maintain robust automation frameworks for web UI, API, desktop, and performance testing, using Java, Groovy, C#, and JavaScript. My focus is on ensuring strategic test coverage, applying the test pyramid approach across the SDLC, and continuously improving processes to deliver high-quality results. Technology stack: Java, C#, JavaScript, Groovy, Cucumber, Junit, TestNg, Spock, Selenium WebDriver, Selenide, RestAssured, Appium, CodedUI, K6, Azure.",
+	  "description": "At Globallogic, I work on diverse projects in the medical and e-commerce sectors, in SDET and Lead roles, leading and collaborating with teams of up to 8 test automation engineers. I design and maintain robust automation frameworks for web UI, API, desktop, and performance testing, using Java, Groovy, C#, and JavaScript. My focus is on ensuring strategic test coverage, applying the test pyramid approach across the SDLC, and continuously improving processes to deliver high-quality results. Technology stack: Java, C#, JavaScript, TypeScript, Groovy, Cucumber, Junit, TestNg, Spock, Selenium WebDriver, Selenide, RestAssured, Appium, CodedUI, Playwright, K6, Azure.",
 	  "subtopic": "Key responsibilities:",
 	  "responsibilities": [
 		"Managing and coordinating the QA team’s activities and priorities",
